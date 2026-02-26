@@ -1,7 +1,5 @@
 // Configuration
-// IMPORTANT: Replace this URL with your Railway backend URL after deployment
-// Example: 'https://gramsevak-ai-production.up.railway.app'
-const API_BASE_URL = 'http://localhost:8000';  // TODO: Update this after Railway deployment
+const API_BASE_URL = 'https://gramsevak-ai-vertex-2.onrender.com';
 const CHATGPT_AVG_SIZE = 45000;
 
 // State
