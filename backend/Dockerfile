@@ -6,14 +6,11 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application
+# Copy application files
 COPY . .
-
-# Build knowledge base
-RUN python build_index.py
 
 # Expose port
 EXPOSE 8000
 
-# Run application
+# Run application (indices will be built on first request if needed)
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
