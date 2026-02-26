@@ -2,6 +2,22 @@
 
 **Bringing essential services to rural India through AI - Offline-first, Voice-enabled, Ultra-low bandwidth**
 
+---
+
+## 🚀 Live Demo
+
+<div align="center">
+
+### **[� Try Live App](https://gramsevak-ai.netlify.app)** | **[📊 Analytics Dashboard](https://gramsevak-ai.netlify.app/stats-dashboard.html)** | **[📚 API Docs](https://gramsevak-ai-vertex-2.onrender.com/docs)**
+
+**Frontend:** https://gramsevak-ai.netlify.app  
+**Backend API:** https://gramsevak-ai-vertex-2.onrender.com  
+**GitHub:** https://github.com/Shivang1109/GRAMSEVAK-AI_VERTEX
+
+</div>
+
+---
+
 ## 🏆 Hackathon Submission
 
 **Track:** Track 1 - AI, Data & Smart Systems
