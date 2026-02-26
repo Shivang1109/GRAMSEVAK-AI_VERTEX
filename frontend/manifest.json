@@ -1,0 +1,27 @@
+{
+  "name": "GramSevak AI - ग्रामसेवक",
+  "short_name": "GramSevak",
+  "description": "सरकारी योजना सहायक - Rural India Government Schemes Assistant",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2e7d32",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "government", "utilities"],
+  "lang": "hi",
+  "dir": "ltr"
+}

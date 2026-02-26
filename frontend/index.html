@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ग्रामीण भारत के लिए सरकारी योजना सहायक">
+    <title>🌾 GramSevak AI - ग्रामसेवक</title>
+    <link rel="stylesheet" href="style_pro.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2e7d32">
+</head>
+<body>
+    <div class="app-container">
+        <!-- BLOCK 1: Top Navigation Bar (Sticky) -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <h1>🌾 GramSevak AI</h1>
+                    <p class="subtitle">आपका सरकारी योजना सहायक</p>
+                </div>
+                <div class="header-actions">
+                    <!-- Network Status with Dynamic Indicator -->
+                    <div class="network-status" id="network-status">
+                        <span class="status-dot online" id="status-dot"></span>
+                        <span class="status-text" id="status-text">ऑनलाइन</span>
+                    </div>
+                    <button id="dark-mode-toggle" class="icon-btn-small" title="डार्क मोड">
+                        🌙
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- BLOCK 2: Welcome Card (Contained) -->
+            <div class="welcome-card" id="welcome-card">
+                <div class="welcome-icon">👋</div>
+                <h2 class="welcome-title">नमस्ते! मैं आपकी कैसे मदद कर सकता हूं?</h2>
+                <p class="welcome-subtitle">सरकारी योजनाओं, खेती, स्वास्थ्य, और अन्य विषयों पर सवाल पूछें</p>
+            </div>
+
+            <!-- BLOCK 3: Category Chips Row -->
+            <nav class="category-section">
+                <div class="category-chips">
+                    <button class="chip active" data-category="all">
+                        <span class="chip-icon">🏠</span>
+                        <span class="chip-label">सभी</span>
+                    </button>
+                    <button class="chip" data-category="agriculture">
+                        <span class="chip-icon">🌾</span>
+                        <span class="chip-label">खेती</span>
+                    </button>
+                    <button class="chip" data-category="schemes">
+                        <span class="chip-icon">🏛️</span>
+                        <span class="chip-label">योजनाएं</span>
+                    </button>
+                    <button class="chip" data-category="health">
+                        <span class="chip-icon">🏥</span>
+                        <span class="chip-label">स्वास्थ्य</span>
+                    </button>
+                    <button class="chip" data-category="financial">
+                        <span class="chip-icon">💰</span>
+                        <span class="chip-label">वित्त</span>
+                    </button>
+                    <button class="chip" data-category="education">
+                        <span class="chip-icon">📚</span>
+                        <span class="chip-label">शिक्षा</span>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- BLOCK 4: Suggested Prompts Section -->
+            <section class="suggested-section" id="suggested-section">
+                <h3 class="section-title">✨ लोकप्रिय प्रश्न</h3>
+                <div class="suggested-prompts">
+                    <button class="prompt-card" data-query="पीएम किसान में कितना पैसा मिलता है?">
+                        <span class="prompt-icon">💰</span>
+                        <span class="prompt-text">PM-KISAN क्या है?</span>
+                    </button>
+                    <button class="prompt-card" data-query="बुखार में क्या करें?">
+                        <span class="prompt-icon">🤒</span>
+                        <span class="prompt-text">बुखार में क्या करें?</span>
+                    </button>
+                    <button class="prompt-card" data-query="UPI कैसे use करें?">
+                        <span class="prompt-icon">📱</span>
+                        <span class="prompt-text">UPI कैसे बनाएं?</span>
+                    </button>
+                    <button class="prompt-card" data-query="गेहूं की बुवाई कब करें?">
+                        <span class="prompt-icon">🌾</span>
+                        <span class="prompt-text">गेहूं की बुवाई कब करें?</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- BLOCK 5: Response Area (Dynamic) -->
+            <div id="response-container" class="response-container">
+                <!-- Response cards will appear here -->
+            </div>
+
+            <!-- Recent Queries Section -->
+            <section class="recent-queries-section hidden" id="recent-section">
+                <h3 class="section-title">🕐 हाल के प्रश्न</h3>
+                <div id="recent-queries-list" class="recent-queries-list">
+                    <!-- Recent queries will appear here -->
+                </div>
+            </section>
+        </main>
+
+        <!-- BLOCK 6: Input Section (Sticky Bottom) -->
+        <div class="input-section">
+            <div class="input-container">
+                <button id="voice-btn" class="input-icon-btn" title="बोलकर पूछें" aria-label="Voice Input">
+                    🎤
+                </button>
+                <input 
+                    type="text" 
+                    id="query-input" 
+                    class="query-input"
+                    placeholder="अपना सवाल यहाँ लिखें..."
+                    autocomplete="off"
+                    maxlength="200"
+                >
+                <button id="send-btn" class="input-icon-btn send" title="भेजें" aria-label="Send">
+                    ➤
+                </button>
+            </div>
+            <div id="voice-indicator" class="voice-indicator hidden">
+                <span class="pulse-animation"></span>
+                <span class="voice-text">सुन रहा हूँ...</span>
+            </div>
+            <div id="char-counter" class="char-counter">0/200</div>
+        </div>
+
+        <!-- Bandwidth Floating Panel -->
+        <div id="bandwidth-panel" class="bandwidth-panel hidden">
+            <div class="bandwidth-content">
+                <div class="bandwidth-icon">📡</div>
+                <div class="bandwidth-info">
+                    <div class="bandwidth-label">इस प्रश्न में</div>
+                    <div class="bandwidth-value" id="bandwidth-used">1.8 KB</div>
+                    <div class="bandwidth-saved" id="bandwidth-saved">95% डेटा बचाया गया</div>
+                </div>
+            </div>
+            <button class="bandwidth-close" id="bandwidth-close">×</button>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div id="loading-overlay" class="loading-overlay hidden">
+            <div class="loading-content">
+                <div class="loading-spinner"></div>
+                <p class="loading-text">उत्तर खोज रहा हूँ...</p>
+            </div>
+        </div>
+
+        <!-- Toast Container -->
+        <div id="toast-container" class="toast-container"></div>
+    </div>
+
+    <script src="app_pro.js"></script>
+</body>
+</html>
