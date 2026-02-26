@@ -1,19 +1,6 @@
 # 🌾 GramSevak AI - Rural Life Assistant
 
-<div align="center">
-
-![GramSevak AI](https://img.shields.io/badge/GramSevak-AI-green?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.9+-yellow?style=for-the-badge&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688?style=for-the-badge&logo=fastapi)
-
 **Bringing essential services to rural India through AI - Offline-first, Voice-enabled, Ultra-low bandwidth**
-
-[Live Demo](#-quick-start) • [Features](#-core-features) • [Architecture](#-system-architecture) • [Installation](#-installation) • [Documentation](#-documentation)
-
-</div>
-
----
 
 ## 🏆 Hackathon Submission
 
@@ -27,7 +14,7 @@
 
 ---
 
-## 👥 Team Members
+## 👥 Team VERTEX 
 
 - **SHUBHAM SINGH** - Team Leader / Presenter
 - **SHIVANG PATHAK** - Backend Developer
