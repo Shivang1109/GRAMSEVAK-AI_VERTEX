@@ -1,0 +1,58 @@
+[
+  {
+    "id": "legal_001",
+    "category": "legal",
+    "subcategory": "rti",
+    "question_hi": "RTI कैसे file करें?",
+    "question_variants": [
+      "file rti",
+      "आरटीआई आवेदन",
+      "right to information"
+    ],
+    "answer_hi": "RTI file करने के लिए: 1) सादे कागज पर आवेदन लिखें, 2) किस विभाग से जानकारी चाहिए वो लिखें, 3) ₹10 का शुल्क (BPL को मुफ्त), 4) Public Information Officer (PIO) को दें, 5) 30 दिन में जवाब मिलना चाहिए। ऑनलाइन: rtionline.gov.in पर भी कर सकते हैं। अगर जवाब न मिले तो अपील कर सकते हैं।",
+    "tags": [
+      "rti",
+      "right_to_information",
+      "government",
+      "transparency"
+    ]
+  },
+  {
+    "id": "legal_002",
+    "category": "legal",
+    "subcategory": "land_rights",
+    "question_hi": "जमीन के कागज कैसे चेक करें?",
+    "question_variants": [
+      "land records",
+      "भूमि अभिलेख",
+      "property papers"
+    ],
+    "answer_hi": "जमीन के कागज चेक करने के लिए: 1) अपने राज्य की भूमि पोर्टल पर जाएं (जैसे: bhulekh.up.gov.in), 2) खसरा-खतौनी ऑनलाइन देखें, 3) तहसील में जाकर भी देख सकते हैं, 4) 7/12 extract (महाराष्ट्र), Patta/Chitta (तमिलनाडु), 5) जमीन खरीदने से पहले encumbrance certificate जरूर चेक करें। कोई विवाद न हो ये confirm करें।",
+    "tags": [
+      "land",
+      "property",
+      "records",
+      "bhulekh",
+      "khatauni"
+    ]
+  },
+  {
+    "id": "legal_003",
+    "category": "legal",
+    "subcategory": "consumer_rights",
+    "question_hi": "ग्राहक शिकायत कैसे करें?",
+    "question_variants": [
+      "consumer complaint",
+      "उपभोक्ता शिकायत",
+      "customer complaint"
+    ],
+    "answer_hi": "ग्राहक शिकायत के लिए: 1) पहले दुकानदार/कंपनी से बात करें, 2) लिखित शिकायत दें, 3) अगर समाधान न हो तो Consumer Forum में जाएं, 4) ऑनलाइन: consumerhelpline.gov.in या 1800-11-4000 पर कॉल करें, 5) बिल और सबूत संभाल कर रखें। ₹1 करोड़ तक के मामले में शुल्क नहीं। 3 साल के अंदर शिकायत करें।",
+    "tags": [
+      "consumer",
+      "complaint",
+      "rights",
+      "forum",
+      "helpline"
+    ]
+  }
+]

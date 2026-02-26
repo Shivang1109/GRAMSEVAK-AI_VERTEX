@@ -1,0 +1,344 @@
+[
+  {
+    "id": "pmkisan_001",
+    "scheme": "PM-KISAN",
+    "category": "agriculture",
+    "question_hi": "पीएम किसान योजना में कितने पैसे मिलते हैं?",
+    "question_variants": [
+      "किसान सम्मान निधि क्या है",
+      "pm kisan ka paisa kitna hai",
+      "किसान योजना में कितना मिलता है"
+    ],
+    "answer_hi": "पीएम-किसान योजना में हर साल ₹6000 मिलते हैं। यह तीन किस्तों में ₹2000-₹2000 करके आते हैं। पात्र किसान pmkisan.gov.in पर आवेदन कर सकते हैं।",
+    "eligibility_hi": "2 हेक्टेयर तक जमीन वाले किसान परिवार",
+    "documents": ["आधार कार्ड", "खाता नंबर", "जमीन के कागज"],
+    "tags": ["farming", "money", "central_scheme"]
+  },
+  {
+    "id": "ujjwala_001",
+    "scheme": "Ujjwala Yojana",
+    "category": "welfare",
+    "question_hi": "उज्ज्वला योजना में क्या मिलता है?",
+    "question_variants": [
+      "गैस कनेक्शन कैसे मिलेगा",
+      "ujjwala yojana benefits",
+      "फ्री गैस सिलेंडर योजना"
+    ],
+    "answer_hi": "उज्ज्वला योजना में गरीब परिवारों को मुफ्त LPG कनेक्शन मिलता है। इसमें ₹1600 की सहायता राशि दी जाती है। BPL परिवार की महिलाएं आवेदन कर सकती हैं।",
+    "eligibility_hi": "BPL परिवार की महिला सदस्य, 18 वर्ष से अधिक उम्र",
+    "documents": ["BPL कार्ड", "आधार कार्ड", "बैंक खाता", "फोटो"],
+    "tags": ["lpg", "women", "welfare"]
+  },
+  {
+    "id": "ayushman_001",
+    "scheme": "Ayushman Bharat",
+    "category": "health",
+    "question_hi": "आयुष्मान भारत योजना में कितना इलाज मुफ्त है?",
+    "question_variants": [
+      "आयुष्मान कार्ड से क्या फायदा",
+      "ayushman bharat hospital list",
+      "5 लाख का इलाज कैसे मिलेगा"
+    ],
+    "answer_hi": "आयुष्मान भारत योजना में हर परिवार को ₹5 लाख तक का मुफ्त इलाज मिलता है। यह सरकारी और पैनल में शामिल निजी अस्पतालों में मान्य है। कैशलेस इलाज की सुविधा है।",
+    "eligibility_hi": "SECC 2011 में शामिल परिवार या राज्य सरकार द्वारा चिन्हित परिवार",
+    "documents": ["आधार कार्ड", "राशन कार्ड"],
+    "tags": ["health", "insurance", "hospital"]
+  },
+  {
+    "id": "jandhan_001",
+    "scheme": "Jan Dhan Yojana",
+    "category": "banking",
+    "question_hi": "जन धन खाता कैसे खोलें?",
+    "question_variants": [
+      "बैंक खाता खोलने के लिए क्या चाहिए",
+      "jan dhan account benefits",
+      "जीरो बैलेंस खाता"
+    ],
+    "answer_hi": "जन धन खाता किसी भी बैंक में जीरो बैलेंस पर खुल सकता है। इसमें ₹10,000 का ओवरड्राफ्ट, मुफ्त RuPay डेबिट कार्ड और ₹2 लाख का दुर्घटना बीमा मिलता है।",
+    "eligibility_hi": "कोई भी भारतीय नागरिक",
+    "documents": ["आधार कार्ड या कोई पहचान पत्र", "पता प्रमाण"],
+    "tags": ["banking", "account", "financial_inclusion"]
+  },
+  {
+    "id": "mgnrega_001",
+    "scheme": "MGNREGA",
+    "category": "employment",
+    "question_hi": "मनरेगा में काम कैसे मिलता है?",
+    "question_variants": [
+      "100 दिन का रोजगार कैसे मिलेगा",
+      "mgnrega job card",
+      "नरेगा में कितनी मजदूरी मिलती है"
+    ],
+    "answer_hi": "मनरेगा में हर ग्रामीण परिवार को साल में 100 दिन का रोजगार गारंटी के साथ मिलता है। जॉब कार्ड बनवाने के लिए ग्राम पंचायत में आवेदन करें। मजदूरी सीधे बैंक खाते में आती है।",
+    "eligibility_hi": "ग्रामीण क्षेत्र का कोई भी वयस्क सदस्य",
+    "documents": ["आधार कार्ड", "बैंक खाता", "फोटो"],
+    "tags": ["employment", "rural", "wage"]
+  },
+  {
+    "id": "pmawas_001",
+    "scheme": "PM Awas Yojana",
+    "category": "housing",
+    "question_hi": "प्रधानमंत्री आवास योजना में कितनी सहायता मिलती है?",
+    "question_variants": [
+      "घर बनाने के लिए सरकारी योजना",
+      "awas yojana gramin",
+      "पक्का मकान योजना"
+    ],
+    "answer_hi": "PM आवास योजना में मैदानी क्षेत्र में ₹1.20 लाख और पहाड़ी क्षेत्र में ₹1.30 लाख मिलते हैं। यह राशि तीन किस्तों में दी जाती है। BPL परिवार जिनके पास पक्का मकान नहीं है, वे आवेदन कर सकते हैं।",
+    "eligibility_hi": "BPL परिवार, कच्चे मकान में रहने वाले, महिला के नाम पर मकान होना चाहिए",
+    "documents": ["आधार कार्ड", "BPL कार्ड", "बैंक खाता", "जमीन के कागज"],
+    "tags": ["housing", "construction", "subsidy"]
+  },
+  {
+    "id": "sukanya_001",
+    "scheme": "Sukanya Samriddhi Yojana",
+    "category": "savings",
+    "question_hi": "सुकन्या समृद्धि योजना क्या है?",
+    "question_variants": [
+      "बेटी के लिए बचत योजना",
+      "sukanya account kaise khole",
+      "लड़की की शादी के लिए योजना"
+    ],
+    "answer_hi": "सुकन्या समृद्धि योजना बेटियों के लिए बचत योजना है। 10 साल से कम उम्र की बेटी के नाम पर खाता खोल सकते हैं। ब्याज दर 8% (सरकार तय करती है)। न्यूनतम ₹250/साल, अधिकतम ₹1.5 लाख/साल जमा कर सकते हैं। 21 साल बाद पूरा पैसा मिलता है।",
+    "eligibility_hi": "10 साल से कम उम्र की बेटी",
+    "documents": ["बेटी का जन्म प्रमाण पत्र", "माता-पिता का आधार", "पता प्रमाण"],
+    "tags": ["girl_child", "savings", "education"]
+  },
+  {
+    "id": "swachh_001",
+    "scheme": "Swachh Bharat Mission",
+    "category": "sanitation",
+    "question_hi": "शौचालय बनाने के लिए कितना पैसा मिलता है?",
+    "question_variants": [
+      "toilet subsidy scheme",
+      "स्वच्छ भारत मिशन",
+      "शौचालय योजना"
+    ],
+    "answer_hi": "स्वच्छ भारत मिशन के तहत शौचालय बनाने के लिए ₹12,000 की सहायता मिलती है। यह राशि दो किस्तों में दी जाती है। ग्राम पंचायत में आवेदन करें। शौचालय बनने के बाद फोटो के साथ सत्यापन होता है।",
+    "eligibility_hi": "ग्रामीण परिवार जिनके पास शौचालय नहीं है",
+    "documents": ["आधार कार्ड", "बैंक खाता", "फोटो"],
+    "tags": ["sanitation", "toilet", "hygiene"]
+  },
+  {
+    "id": "fasal_bima_001",
+    "scheme": "PM Fasal Bima Yojana",
+    "category": "agriculture",
+    "question_hi": "फसल बीमा में कितना प्रीमियम देना होता है?",
+    "question_variants": [
+      "crop insurance premium",
+      "फसल खराब होने पर क्लेम",
+      "pmfby scheme"
+    ],
+    "answer_hi": "फसल बीमा में खरीफ फसल के लिए 2% और रबी फसल के लिए 1.5% प्रीमियम देना होता है। बाकी प्रीमियम सरकार देती है। फसल खराब होने पर बीमा राशि मिलती है। बुवाई के 10 दिन के अंदर आवेदन करें।",
+    "eligibility_hi": "सभी किसान (अपनी या किराए की जमीन पर खेती करने वाले)",
+    "documents": ["आधार कार्ड", "बैंक खाता", "जमीन के कागज", "बुवाई प्रमाण"],
+    "tags": ["insurance", "crop", "farming"]
+  },
+  {
+    "id": "atal_pension_001",
+    "scheme": "Atal Pension Yojana",
+    "category": "pension",
+    "question_hi": "अटल पेंशन योजना में कितना पैसा जमा करना होता है?",
+    "question_variants": [
+      "pension scheme for workers",
+      "60 साल के बाद पेंशन",
+      "apy contribution"
+    ],
+    "answer_hi": "अटल पेंशन योजना में उम्र के अनुसार ₹42 से ₹1,454 प्रति महीना जमा करना होता है। 60 साल की उम्र के बाद ₹1,000 से ₹5,000 तक मासिक पेंशन मिलती है। जितनी जल्दी शुरू करें, उतना कम पैसा देना होगा।",
+    "eligibility_hi": "18-40 साल की उम्र, बैंक खाता होना चाहिए",
+    "documents": ["आधार कार्ड", "बैंक खाता", "मोबाइल नंबर"],
+    "tags": ["pension", "retirement", "savings"]
+  },
+  {
+    "id": "kaushal_001",
+    "scheme": "Pradhan Mantri Kaushal Vikas Yojana",
+    "category": "skill_development",
+    "question_hi": "कौशल विकास योजना में क्या सिखाते हैं?",
+    "question_variants": [
+      "free skill training",
+      "pmkvy courses list",
+      "सरकारी ट्रेनिंग प्रोग्राम"
+    ],
+    "answer_hi": "PMKVY में 40+ ट्रेड में मुफ्त ट्रेनिंग मिलती है - इलेक्ट्रीशियन, प्लंबर, सिलाई, ब्यूटी पार्लर, कंप्यूटर आदि। 3-6 महीने की ट्रेनिंग के बाद सर्टिफिकेट मिलता है। ट्रेनिंग के दौरान ₹500-1500 स्टाइपेंड भी मिलता है। pmkvyofficial.org पर रजिस्ट्रेशन करें।",
+    "eligibility_hi": "10वीं-12वीं पास या ड्रॉपआउट, 18-35 साल",
+    "documents": ["आधार कार्ड", "शैक्षणिक प्रमाण पत्र", "बैंक खाता"],
+    "tags": ["skill", "training", "employment"]
+  },
+  {
+    "id": "scholarship_001",
+    "scheme": "National Scholarship Portal",
+    "category": "education",
+    "question_hi": "छात्रवृत्ति के लिए कैसे आवेदन करें?",
+    "question_variants": [
+      "scholarship application online",
+      "स्कॉलरशिप कब आती है",
+      "nsp portal"
+    ],
+    "answer_hi": "छात्रवृत्ति के लिए scholarships.gov.in पर आवेदन करें। Pre-Matric (कक्षा 1-10) और Post-Matric (11वीं के बाद) स्कॉलरशिप उपलब्ध हैं। SC/ST/OBC/अल्पसंख्यक छात्रों को प्राथमिकता। आवेदन अगस्त-अक्टूबर में खुलते हैं। पैसा सीधे बैंक खाते में आता है।",
+    "eligibility_hi": "नियमित छात्र, परिवार की आय ₹2.5 लाख से कम",
+    "documents": ["आधार कार्ड", "बैंक खाता", "आय प्रमाण पत्र", "मार्कशीट"],
+    "tags": ["scholarship", "education", "students"]
+  },
+  {
+    "id": "solar_001",
+    "scheme": "PM Kusum Yojana",
+    "category": "energy",
+    "question_hi": "सोलर पंप पर कितनी सब्सिडी मिलती है?",
+    "question_variants": [
+      "solar pump subsidy",
+      "कुसुम योजना",
+      "सौर ऊर्जा योजना"
+    ],
+    "answer_hi": "PM कुसुम योजना में सोलर पंप पर 60% सब्सिडी मिलती है। 30% लोन और 10% किसान को देना होता है। 3HP सोलर पंप की कुल लागत ₹3 लाख में से किसान को केवल ₹30,000 देने होते हैं। बिजली बिल से मुक्ति मिलती है।",
+    "eligibility_hi": "सभी किसान जिनके पास खेती योग्य जमीन है",
+    "documents": ["आधार कार्ड", "जमीन के कागज", "बैंक खाता"],
+    "tags": ["solar", "energy", "subsidy", "farming"]
+  },
+  {
+    "id": "matritva_001",
+    "scheme": "Pradhan Mantri Matru Vandana Yojana",
+    "category": "maternal_health",
+    "question_hi": "गर्भवती महिलाओं को कितना पैसा मिलता है?",
+    "question_variants": [
+      "pregnancy financial help",
+      "मातृत्व लाभ योजना",
+      "pmmvy scheme"
+    ],
+    "answer_hi": "PMMVY योजना में गर्भवती महिलाओं को ₹5,000 की सहायता तीन किस्तों में मिलती है। पहली किस्त गर्भावस्था पंजीकरण पर, दूसरी 6 महीने बाद, तीसरी बच्चे के जन्म और टीकाकरण के बाद। आंगनवाड़ी या स्वास्थ्य केंद्र में आवेदन करें।",
+    "eligibility_hi": "पहली बार गर्भवती होने वाली महिला",
+    "documents": ["आधार कार्ड", "बैंक खाता", "MCP कार्ड"],
+    "tags": ["pregnancy", "women", "health", "financial_aid"]
+  },
+  {
+    "id": "startup_001",
+    "scheme": "Startup India",
+    "category": "entrepreneurship",
+    "question_hi": "स्टार्टअप के लिए सरकारी मदद कैसे मिलेगी?",
+    "question_variants": [
+      "startup registration benefits",
+      "नया बिजनेस शुरू करना",
+      "startup india scheme"
+    ],
+    "answer_hi": "Startup India में रजिस्टर करने पर 3 साल तक टैक्स छूट, पेटेंट फीस में 80% छूट, और सरकारी टेंडर में प्राथमिकता मिलती है। startupindia.gov.in पर रजिस्ट्रेशन करें। फंडिंग के लिए SIDBI, बैंक लोन में आसानी मिलती है।",
+    "eligibility_hi": "5 साल से कम पुरानी कंपनी, नया आइडिया या प्रोडक्ट",
+    "documents": ["कंपनी रजिस्ट्रेशन", "PAN", "बिजनेस प्लान"],
+    "tags": ["startup", "business", "entrepreneurship", "tax_benefit"]
+  },
+  {
+    "id": "pmkisan_002",
+    "scheme": "PM-KISAN",
+    "category": "government_schemes",
+    "question_hi": "पीएम किसान में कितना पैसा मिलता है?",
+    "question_variants": ["pm kisan mein kitna paisa milta hai", "किसान सम्मान निधि राशि", "pm kisan amount"],
+    "answer_hi": "किसान को ₹6000 प्रति वर्ष 3 किस्तों में मिलता है। यानी तीन बार ₹2000 के आते हैं। सीधे बैंक के खाते में। सिर्फ छोटे किसान के लिए pmkisan.gov.in पर आवेदन करें।",
+    "tags": ["pmkisan", "money", "installment", "farmer"]
+  },
+  {
+    "id": "pmkisan_003",
+    "scheme": "PM-KISAN",
+    "category": "government_schemes",
+    "question_hi": "पीएम किसान की किस्त कब आएगी?",
+    "question_variants": ["pm kisan ki kist kab aayegi", "किसान योजना पैसा कब", "next installment"],
+    "answer_hi": "₹2000 की किस्त हर 4 महीने में आती है। साल में 3 बार पैसा आता है। Beneficiary Status वेबसाइट पर देखें। pmkisan.gov.in पर अपना नाम और आधार से चेक करें। अगर नाम नहीं है तो CSC या ग्राम पंचायत में संपर्क करें।",
+    "tags": ["pmkisan", "installment", "status", "check"]
+  },
+  {
+    "id": "pmkisan_004",
+    "scheme": "PM-KISAN",
+    "category": "government_schemes",
+    "question_hi": "पैसा नहीं आया क्या करें?",
+    "question_variants": ["paisa nahi aaya kya kare", "किस्त नहीं आई", "payment not received"],
+    "answer_hi": "अगर ₹2000 नहीं आया तो आधार पर बैंक खाता लिंक चेक करें। गलत खाता नंबर हो सकता है। pmkisan.gov.in पर Beneficiary Status देखें। CSC या ग्राम पंचायत में सुधार कराएं। हेल्पलाइन: 155261 या pmkisan-ict@gov.in पर ईमेल करें।",
+    "tags": ["pmkisan", "payment_issue", "problem", "helpline"]
+  },
+  {
+    "id": "ujjwala_002",
+    "scheme": "Ujjwala Yojana",
+    "category": "government_schemes",
+    "question_hi": "गैस कनेक्शन कैसे मिलेगा?",
+    "question_variants": ["gas connection kaise milega", "उज्ज्वला योजना आवेदन", "lpg connection"],
+    "answer_hi": "उज्ज्वला योजना में गरीब परिवार की महिला को मुफ्त LPG कनेक्शन मिलता है। BPL कार्ड वाली महिला को। आवेदन के लिए pmuy.gov.in पर जाएं। या नजदीकी गैस एजेंसी में जाएं। दस्तावेज: BPL कार्ड, आधार, फोटो, बैंक खाता।",
+    "tags": ["ujjwala", "lpg", "gas", "connection"]
+  },
+  {
+    "id": "ujjwala_003",
+    "scheme": "Ujjwala Yojana",
+    "category": "government_schemes",
+    "question_hi": "सब्सिडी कितनी मिलती है?",
+    "question_variants": ["subsidy kitni milti hai", "उज्ज्वला सब्सिडी", "lpg subsidy amount"],
+    "answer_hi": "गैस पर ₹200 तक की छूट मिलती है। पहली तीन बार खाने में आती है। कनेक्शन पर ₹1600 की सहायता मिलती है। रिफिल पर सब्सिडी सीधे बैंक खाते में आती है। pmuy.gov.in पर अपना स्टेटस चेक करें।",
+    "tags": ["ujjwala", "subsidy", "lpg", "refill"]
+  },
+  {
+    "id": "ayushman_002",
+    "scheme": "Ayushman Bharat",
+    "category": "government_schemes",
+    "question_hi": "कितने का इलाज फ्री है?",
+    "question_variants": ["kitne ka ilaj free hai", "आयुष्मान कवर", "treatment amount"],
+    "answer_hi": "हर परिवार को ₹5 लाख तक का मुफ्त इलाज मिलता है। कैशलेस इलाज। अस्पताल में इलाज (IPD), ऑपरेशन, दवाइयां। pmjay.gov.in पर अस्पताल की लिस्ट देखें। आयुष्मान कार्ड बनवाएं CSC या PHC पर।",
+    "tags": ["ayushman", "health", "insurance", "treatment"]
+  },
+  {
+    "id": "ayushman_003",
+    "scheme": "Ayushman Bharat",
+    "category": "government_schemes",
+    "question_hi": "कार्ड कैसे बनेगा?",
+    "question_variants": ["card kaise banega", "आयुष्मान कार्ड", "health card"],
+    "answer_hi": "आयुष्मान कार्ड बनवाने के लिए: 1) आधार और राशन कार्ड लेकर CSC जाएं, 2) या pmjay.gov.in पर ऑनलाइन चेक करें, 3) पात्रता है तो कार्ड बन जाएगा। मुफ्त है। नजदीकी CSC पर पूछें।",
+    "tags": ["ayushman", "card", "registration", "eligibility"]
+  },
+  {
+    "id": "jandhan_002",
+    "scheme": "Jan Dhan Yojana",
+    "category": "government_schemes",
+    "question_hi": "जीरो बैलेंस खाता क्या है?",
+    "question_variants": ["zero balance khata kya hai", "जन धन खाता", "no minimum balance"],
+    "answer_hi": "इस खाते में ₹0 से खाता खुलता है। ₹2 लाख का दुर्घटना बीमा मिलता है। किसी भी बैंक में खोल सकते हैं। RuPay कार्ड मुफ्त। ₹10,000 का ओवरड्राफ्ट भी मिल सकता है। बस आधार कार्ड चाहिए।",
+    "tags": ["jandhan", "zero_balance", "bank_account", "rupay"]
+  },
+  {
+    "id": "jandhan_003",
+    "scheme": "Jan Dhan Yojana",
+    "category": "government_schemes",
+    "question_hi": "ओवरड्राफ्ट कितना मिलेगा?",
+    "question_variants": ["overdraft kitna milega", "जन धन ओवरड्राफ्ट", "loan facility"],
+    "answer_hi": "जन धन खाते पर ₹10000 तक ओवरड्राफ्ट मिल सकता है। खाता 6 महीने पुराना होना चाहिए। बैंक से संपर्क करें। कोई गारंटी नहीं चाहिए। ब्याज दर कम है।",
+    "tags": ["jandhan", "overdraft", "loan", "facility"]
+  },
+  {
+    "id": "mgnrega_002",
+    "scheme": "MGNREGA",
+    "category": "government_schemes",
+    "question_hi": "कितने दिन काम मिलेगा?",
+    "question_variants": ["kitne din kaam milega", "मनरेगा दिन", "work days"],
+    "answer_hi": "मनरेगा में 100 दिन का काम मिलता है। मजदूरी राज्य अनुसार अलग होती है। ग्राम पंचायत में आवेदन दें। काम मांगने पर 15 दिन में मिलना चाहिए। nrega.nic.in पर जॉब कार्ड देखें।",
+    "tags": ["mgnrega", "work_days", "100_days", "employment"]
+  },
+  {
+    "id": "mgnrega_003",
+    "scheme": "MGNREGA",
+    "category": "government_schemes",
+    "question_hi": "मजदूरी कितनी है?",
+    "question_variants": ["majdoori kitni hai", "नरेगा मजदूरी", "wage rate"],
+    "answer_hi": "मजदूरी राज्य अनुसार ₹200-₹300 अलग होती है। हर राज्य राज्य में अलग है। nrega.nic.in पर रेट देखें। पैसा सीधे बैंक खाते में आता है। 15 दिन में मिलना चाहिए।",
+    "tags": ["mgnrega", "wage", "payment", "rate"]
+  },
+  {
+    "id": "pmawas_002",
+    "scheme": "PM Awas Yojana",
+    "category": "government_schemes",
+    "question_hi": "घर के लिए पैसा कितना मिलेगा?",
+    "question_variants": ["ghar ke liye kitna paisa milega", "आवास योजना राशि", "house subsidy"],
+    "answer_hi": "मैदान में ₹1.20 लाख और पहाड़ी में ₹1.30 लाख मिलता है। तीन किस्तों में आता है। pmaymis.gov.in पर आवेदन करें। BPL परिवार को प्राथमिकता। महिला के नाम पर मकान होना चाहिए।",
+    "tags": ["pmawas", "housing", "subsidy", "amount"]
+  },
+  {
+    "id": "pmawas_003",
+    "scheme": "PM Awas Yojana",
+    "category": "government_schemes",
+    "question_hi": "लिस्ट में नाम कैसे देखें?",
+    "question_variants": ["list mein naam kaise dekhe", "आवास सूची", "beneficiary list"],
+    "answer_hi": "लाभार्थी सूची देखने के लिए: 1) pmaymis.gov.in पर जाएं, 2) 'Beneficiary' पर क्लिक करें, 3) अपना रजिस्ट्रेशन नंबर डालें। या ग्राम पंचायत में पूछें। आधार नंबर से भी चेक कर सकते हैं।",
+    "tags": ["pmawas", "list", "beneficiary", "check"]
+  }
+]

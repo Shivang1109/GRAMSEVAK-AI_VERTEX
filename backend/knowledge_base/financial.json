@@ -1,0 +1,57 @@
+[
+  {
+    "id": "fin_001",
+    "category": "financial",
+    "subcategory": "banking",
+    "question_hi": "बैंक खाता कैसे खोलें?",
+    "question_variants": [
+      "open bank account",
+      "खाता खोलना",
+      "account kaise khole"
+    ],
+    "answer_hi": "बैंक खाता खोलने के लिए: 1) नजदीकी बैंक जाएं, 2) आधार कार्ड + पैन कार्ड + फोटो ले जाएं, 3) फॉर्म भरें, 4) जीरो बैलेंस खाता (Jan Dhan) खोल सकते हैं, 5) मोबाइल नंबर जरूर दें। खाता खुलने पर पासबुक, चेकबुक और ATM कार्ड मिलेगा। ऑनलाइन भी खोल सकते हैं।",
+    "tags": [
+      "banking",
+      "account",
+      "jan_dhan",
+      "savings"
+    ]
+  },
+  {
+    "id": "fin_002",
+    "category": "financial",
+    "subcategory": "upi",
+    "question_hi": "UPI कैसे use करें?",
+    "question_variants": [
+      "upi payment",
+      "यूपीआई",
+      "digital payment"
+    ],
+    "answer_hi": "UPI use करने के लिए: 1) BHIM, Google Pay, PhonePe या Paytm app डाउनलोड करें, 2) मोबाइल नंबर रजिस्टर करें (बैंक से लिंक होना चाहिए), 3) UPI PIN बनाएं, 4) पैसे भेजने के लिए: मोबाइल नंबर या QR code scan करें, 5) राशि डालें और PIN डालें। मुफ्त है, तुरंत पैसा पहुंचता है। सुरक्षित है।",
+    "tags": [
+      "upi",
+      "digital_payment",
+      "bhim",
+      "phonepe"
+    ]
+  },
+  {
+    "id": "fin_003",
+    "category": "financial",
+    "subcategory": "loan",
+    "question_hi": "लोन कैसे मिलेगा?",
+    "question_variants": [
+      "get loan",
+      "कर्ज कैसे लें",
+      "personal loan"
+    ],
+    "answer_hi": "लोन लेने के लिए: 1) बैंक या NBFC में आवेदन करें, 2) दस्तावेज: आधार, पैन, बैंक स्टेटमेंट, आय प्रमाण, 3) लोन के प्रकार: Personal, Home, Business, Education, 4) ब्याज दर 8-15% (बैंक अनुसार), 5) EMI calculator से monthly payment देखें। MUDRA loan (₹10 लाख तक) छोटे बिजनेस के लिए। Credit score अच्छा होना चाहिए।",
+    "tags": [
+      "loan",
+      "credit",
+      "emi",
+      "mudra",
+      "interest"
+    ]
+  }
+]

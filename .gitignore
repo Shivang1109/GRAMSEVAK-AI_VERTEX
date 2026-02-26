@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*_backup.*
+*_old.*
+*_enhanced.*
+*_premium.*
+*_pro.*
+
+# Documentation (keep only essential)
+STUNNING_UI_COMPLETE.md
+TEST_PREMIUM_UI.md
+DEMO_CHEATSHEET.md
+VISUAL_GUIDE.md
+FINAL_SETUP.md
+PROFESSIONAL_UI_COMPLETE.md
+UI_ENHANCEMENTS.md
+IMPLEMENTATION_COMPARISON.md
+JUDGES_QA.md
+PPT_*.md
+START_DEMO.md
+UPDATE_INSTRUCTIONS.md
+SEARCH_FLEXIBILITY.md
+FILE_STRUCTURE.md
+FINAL_UPDATE_SUMMARY.md
+
+# Temporary files
+*.log
+*.tmp

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "edu_001",
+    "category": "education",
+    "subcategory": "scholarship",
+    "question_hi": "छात्रवृत्ति के लिए कैसे आवेदन करें?",
+    "question_variants": [
+      "scholarship application",
+      "स्कॉलरशिप फॉर्म",
+      "scholarship kaise milegi"
+    ],
+    "answer_hi": "छात्रवृत्ति के लिए: 1) scholarships.gov.in पर जाएं, 2) रजिस्ट्रेशन करें, 3) अपनी योग्यता के अनुसार स्कॉलरशिप चुनें, 4) दस्तावेज अपलोड करें (आधार, मार्कशीट, बैंक खाता, आय प्रमाण), 5) आवेदन अगस्त-अक्टूबर में खुलते हैं। Pre-Matric (कक्षा 1-10) और Post-Matric (11वीं के बाद) दोनों के लिए।",
+    "tags": [
+      "scholarship",
+      "nsp",
+      "education",
+      "financial_aid"
+    ]
+  },
+  {
+    "id": "edu_002",
+    "category": "education",
+    "subcategory": "basic_education",
+    "question_hi": "बच्चों को पढ़ाई में कैसे मदद करें?",
+    "question_variants": [
+      "help children study",
+      "बच्चों की पढ़ाई",
+      "homework help"
+    ],
+    "answer_hi": "बच्चों की पढ़ाई में मदद: 1) रोज एक निश्चित समय पर पढ़ाएं, 2) शांत जगह बनाएं, 3) DIKSHA app use करें (मुफ्त), 4) कहानियों से पढ़ाएं, 5) खेल-खेल में सिखाएं, 6) प्रोत्साहन दें, डांटें नहीं। अगर खुद नहीं पढ़ा सकते तो बड़े बच्चों या शिक्षक से मदद लें।",
+    "tags": [
+      "basic_education",
+      "parenting",
+      "homework",
+      "diksha"
+    ]
+  },
+  {
+    "id": "edu_003",
+    "category": "education",
+    "subcategory": "vocational_training",
+    "question_hi": "कौशल प्रशिक्षण कहां मिलेगा?",
+    "question_variants": [
+      "skill training",
+      "व्यावसायिक प्रशिक्षण",
+      "vocational courses"
+    ],
+    "answer_hi": "कौशल प्रशिक्षण के लिए: 1) PMKVY (प्रधानमंत्री कौशल विकास योजना) - pmkvyofficial.org, 2) ITI (Industrial Training Institute), 3) Polytechnic colleges, 4) NSDC training centers। कोर्स: इलेक्ट्रीशियन, प्लंबर, सिलाई, ब्यूटी पार्लर, कंप्यूटर, मोबाइल रिपेयरिंग। 3-6 महीने की ट्रेनिंग। सर्टिफिकेट मिलता है। कुछ में स्टाइपेंड भी।",
+    "tags": [
+      "vocational",
+      "skill",
+      "pmkvy",
+      "iti",
+      "training"
+    ]
+  }
+]

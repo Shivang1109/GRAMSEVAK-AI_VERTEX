@@ -1,0 +1,182 @@
+[
+  {
+    "id": "health_001",
+    "category": "health",
+    "subcategory": "first_aid",
+    "question_hi": "बुखार में क्या करें?",
+    "question_variants": ["fever treatment", "बुखार का इलाज", "bukhar mein kya khaye"],
+    "answer_hi": "बुखार में: 1) आराम करें और पानी खूब पिएं, 2) माथे पर ठंडी पट्टी रखें, 3) पैरासिटामोल (500mg) ले सकते हैं, 4) हल्का खाना खाएं (दलिया, खिचड़ी), 5) अगर 3 दिन से ज्यादा बुखार रहे या 103°F से ऊपर हो तो डॉक्टर को दिखाएं।",
+    "tags": ["fever", "first_aid", "home_remedy", "medicine"]
+  },
+  {
+    "id": "health_002",
+    "category": "health",
+    "subcategory": "first_aid",
+    "question_hi": "दस्त लगे हैं क्या करें?",
+    "question_variants": ["diarrhea treatment", "पेट खराब", "loose motion"],
+    "answer_hi": "दस्त में: 1) ORS घोल पिएं (1 पैकेट 1 लीटर पानी में), 2) नमक-चीनी का घोल बनाएं (1 चम्मच नमक + 8 चम्मच चीनी + 1 लीटर पानी), 3) दही, केला, चावल खाएं, 4) तेल-मसाला बंद करें, 5) अगर खून आए या 2 दिन से ज्यादा हो तो डॉक्टर को दिखाएं।",
+    "tags": ["diarrhea", "ors", "dehydration", "stomach"]
+  },
+  {
+    "id": "health_003",
+    "category": "health",
+    "subcategory": "emergency",
+    "question_hi": "सांप काटने पर क्या करें?",
+    "question_variants": ["snake bite treatment", "सर्पदंश", "saanp kaatne par"],
+    "answer_hi": "सांप काटने पर तुरंत: 1) मरीज को शांत रखें, हिलाएं नहीं, 2) काटे हुए अंग को हिलाएं नहीं, 3) तुरंत अस्पताल ले जाएं, 4) काटे हुए जगह को साफ पानी से धोएं, 5) गलत उपाय न करें - चीरा लगाना, मुंह से चूसना, बर्फ लगाना सब गलत है। Anti-venom injection जल्दी लगवाएं।",
+    "tags": ["snake_bite", "emergency", "first_aid", "anti_venom"]
+  },
+  {
+    "id": "health_004",
+    "category": "health",
+    "subcategory": "hospital",
+    "question_hi": "नजदीकी अस्पताल कैसे खोजें?",
+    "question_variants": ["nearest hospital", "PHC location", "अस्पताल कहां है"],
+    "answer_hi": "नजदीकी अस्पताल खोजने के लिए: 1) 108 पर कॉल करें (मुफ्त एम्बुलेंस), 2) आरोग्य सेतु app में 'Health Facilities' देखें, 3) Google Maps पर 'hospital near me' सर्च करें, 4) आंगनवाड़ी कार्यकर्ता या ASHA से पूछें, 5) PHC (प्राथमिक स्वास्थ्य केंद्र) हर 5-10 किलोमीटर पर होता है।",
+    "tags": ["hospital", "phc", "emergency", "ambulance"]
+  },
+  {
+    "id": "health_005",
+    "category": "health",
+    "subcategory": "vaccination",
+    "question_hi": "बच्चों का टीकाकरण कब कराएं?",
+    "question_variants": ["child vaccination schedule", "टीका चार्ट", "immunization"],
+    "answer_hi": "बच्चों का टीकाकरण समय: जन्म पर BCG + Polio, 6 सप्ताह पर DPT + Polio + Hepatitis B, 10 सप्ताह पर दूसरी खुराक, 14 सप्ताह पर तीसरी खुराक, 9 महीने पर खसरा, 16-24 महीने पर DPT + Polio बूस्टर। सभी टीके मुफ्त हैं। आंगनवाड़ी या PHC पर लगवाएं। टीकाकरण कार्ड संभाल कर रखें।",
+    "tags": ["vaccination", "immunization", "child_health", "free"]
+  },
+  {
+    "id": "health_006",
+    "category": "health",
+    "subcategory": "maternal_health",
+    "question_hi": "गर्भावस्था में क्या खाना चाहिए?",
+    "question_variants": ["pregnancy diet", "गर्भवती महिला का खाना", "prenatal nutrition"],
+    "answer_hi": "गर्भावस्था में खाएं: 1) हरी सब्जियां (पालक, मेथी), 2) दालें और अंडे (प्रोटीन के लिए), 3) दूध और दही (कैल्शियम), 4) फल (केला, सेब, अनार), 5) आयरन की गोली रोज लें (ASHA से मुफ्त मिलती है), 6) फोलिक एसिड की गोली लें। चाय-कॉफी कम करें। हर महीने चेकअप कराएं।",
+    "tags": ["pregnancy", "nutrition", "maternal_health", "diet"]
+  },
+  {
+    "id": "health_007",
+    "category": "health",
+    "subcategory": "medicine",
+    "question_hi": "दवा कब खानी चाहिए?",
+    "question_variants": ["medicine timing", "दवा खाने का समय", "medication schedule"],
+    "answer_hi": "दवा खाने का समय: 1) खाने से पहले = खाली पेट (सुबह उठते ही), 2) खाने के बाद = खाना खाने के 30 मिनट बाद, 3) खाने के साथ = खाना खाते समय, 4) सोने से पहले = रात को सोने से 1 घंटा पहले। डॉक्टर की बताई खुराक पूरी करें, बीच में न छोड़ें। दवा का कोर्स पूरा करें।",
+    "tags": ["medicine", "dosage", "timing", "prescription"]
+  },
+  {
+    "id": "health_008",
+    "category": "health",
+    "subcategory": "common_illness",
+    "question_hi": "खांसी-जुकाम में क्या करें?",
+    "question_variants": ["cold cough treatment", "सर्दी-खांसी", "common cold"],
+    "answer_hi": "खांसी-जुकाम में: 1) गर्म पानी पिएं, 2) भाप लें (गर्म पानी में सिर ढककर), 3) शहद + अदरक का रस लें, 4) गर्म पानी से गरारे करें, 5) आराम करें। अगर 1 सप्ताह से ज्यादा हो, सांस लेने में दिक्कत हो, या बुखार आए तो डॉक्टर को दिखाएं। बच्चों को शहद 1 साल के बाद ही दें।",
+    "tags": ["cough", "cold", "home_remedy", "steam"]
+  },
+  {
+    "id": "health_009",
+    "category": "health",
+    "subcategory": "nutrition",
+    "question_hi": "कुपोषण से कैसे बचें?",
+    "question_variants": ["malnutrition prevention", "कुपोषण", "balanced diet"],
+    "answer_hi": "कुपोषण से बचाव: 1) बच्चों को 6 महीने तक सिर्फ माँ का दूध, 2) 6 महीने के बाद ऊपरी आहार शुरू करें (दलिया, खिचड़ी), 3) रंगीन सब्जियां और फल खिलाएं, 4) अंडा, दाल, दूध रोज दें, 5) आंगनवाड़ी से मुफ्त पोषाहार लें, 6) हर महीने बच्चे का वजन चेक करें। पोषण ट्रैकर app भी use कर सकते हैं।",
+    "tags": ["malnutrition", "nutrition", "child_health", "anganwadi"]
+  },
+  {
+    "id": "health_010",
+    "category": "health",
+    "subcategory": "mental_health",
+    "question_hi": "तनाव कम कैसे करें?",
+    "question_variants": ["stress relief", "मानसिक तनाव", "tension kam kaise kare"],
+    "answer_hi": "तनाव कम करने के उपाय: 1) रोज 30 मिनट टहलें या व्यायाम करें, 2) परिवार और दोस्तों से बात करें, 3) योग और ध्यान करें, 4) पर्याप्त नींद लें (7-8 घंटे), 5) शौक में समय बिताएं। अगर बहुत ज्यादा तनाव हो तो हेल्पलाइन पर कॉल करें: 08046110007 (NIMHANS)। मानसिक स्वास्थ्य भी जरूरी है।",
+    "tags": ["mental_health", "stress", "yoga", "helpline"]
+  },
+  {
+    "id": "health_011",
+    "category": "health",
+    "subcategory": "diabetes",
+    "question_hi": "शुगर की बीमारी में क्या खाएं?",
+    "question_variants": ["diabetes diet", "मधुमेह का खाना", "sugar control"],
+    "answer_hi": "डायबिटीज में खाएं: 1) साबुत अनाज (ब्राउन राइस, गेहूं), 2) हरी सब्जियां (करेला, मेथी, पालक), 3) दालें और अंकुरित अनाज, 4) कम मीठे फल (सेब, अमरूद), 5) मेवे (बादाम, अखरोट)। न खाएं: चीनी, मिठाई, सफेद चावल, आलू, मैदा। रोज व्यायाम करें। दवा समय पर लें। शुगर लेवल चेक करते रहें।",
+    "tags": ["diabetes", "diet", "sugar", "blood_glucose"]
+  },
+  {
+    "id": "health_012",
+    "category": "health",
+    "subcategory": "blood_pressure",
+    "question_hi": "हाई BP में क्या करें?",
+    "question_variants": ["high blood pressure", "उच्च रक्तचाप", "bp control"],
+    "answer_hi": "हाई BP में: 1) नमक कम खाएं (5 ग्राम/दिन से कम), 2) तेल-घी कम करें, 3) रोज 30 मिनट टहलें, 4) वजन कम करें, 5) धूम्रपान-शराब बंद करें, 6) तनाव कम करें, 7) दवा नियमित लें। BP रोज चेक करें। अगर 140/90 से ज्यादा रहे तो डॉक्टर को दिखाएं। मुफ्त दवा PHC पर मिलती है।",
+    "tags": ["blood_pressure", "hypertension", "bp", "heart"]
+  },
+  {
+    "id": "health_013",
+    "category": "health",
+    "subcategory": "eye_care",
+    "question_hi": "आंखों की देखभाल कैसे करें?",
+    "question_variants": ["eye care", "आंखों की सफाई", "vision problems"],
+    "answer_hi": "आंखों की देखभाल: 1) रोज साफ पानी से आंखें धोएं, 2) विटामिन A वाला खाना खाएं (गाजर, पालक, अंडा), 3) मोबाइल/TV देखते समय 20-20-20 नियम (20 मिनट बाद 20 सेकंड के लिए 20 फीट दूर देखें), 4) धूप में चश्मा पहनें, 5) साल में एक बार आंखों की जांच कराएं। मुफ्त जांच कैंप आंगनवाड़ी में होते हैं।",
+    "tags": ["eye_care", "vision", "vitamin_a", "checkup"]
+  },
+  {
+    "id": "health_014",
+    "category": "health",
+    "subcategory": "dental",
+    "question_hi": "दांत दर्द में क्या करें?",
+    "question_variants": ["toothache", "दांत का दर्द", "dental pain"],
+    "answer_hi": "दांत दर्द में: 1) गर्म नमक के पानी से कुल्ला करें, 2) लौंग का तेल लगाएं, 3) दर्द निवारक (Paracetamol) ले सकते हैं, 4) ठंडा-गर्म न खाएं, 5) जल्दी दंत चिकित्सक को दिखाएं। रोकथाम: दिन में 2 बार ब्रश करें, मीठा कम खाएं, साल में एक बार दांतों की सफाई कराएं। PHC में मुफ्त dental checkup होता है।",
+    "tags": ["dental", "toothache", "oral_health", "clove"]
+  },
+  {
+    "id": "health_015",
+    "category": "health",
+    "subcategory": "skin",
+    "question_hi": "त्वचा पर खुजली हो तो क्या करें?",
+    "question_variants": ["skin itching", "खुजली का इलाज", "skin allergy"],
+    "answer_hi": "खुजली में: 1) नहाने के बाद मॉइस्चराइजर लगाएं, 2) नीम के पानी से नहाएं, 3) खुजाएं नहीं (इन्फेक्शन हो सकता है), 4) सूती कपड़े पहनें, 5) साबुन कम use करें। अगर लाल चकत्ते हों, सूजन हो, या 1 सप्ताह से ज्यादा हो तो डॉक्टर को दिखाएं। एलर्जी हो सकती है।",
+    "tags": ["skin", "itching", "allergy", "rash"]
+  },
+  {
+    "id": "health_016",
+    "category": "health",
+    "subcategory": "anemia",
+    "question_hi": "खून की कमी कैसे दूर करें?",
+    "question_variants": ["anemia treatment", "एनीमिया", "iron deficiency"],
+    "answer_hi": "खून की कमी (एनीमिया) दूर करने के लिए: 1) आयरन की गोली लें (ASHA से मुफ्त मिलती है), 2) हरी पत्तेदार सब्जियां खाएं (पालक, मेथी), 3) गुड़, चुकंदर, अनार खाएं, 4) विटामिन C वाले फल खाएं (नींबू, आंवला), 5) चाय-कॉफी खाने के साथ न पिएं। गर्भवती महिलाओं और बच्चों में ज्यादा होता है। हीमोग्लोबिन चेक कराएं।",
+    "tags": ["anemia", "iron", "hemoglobin", "nutrition"]
+  },
+  {
+    "id": "health_017",
+    "category": "health",
+    "subcategory": "hygiene",
+    "question_hi": "साफ-सफाई कैसे रखें?",
+    "question_variants": ["hygiene tips", "स्वच्छता", "cleanliness"],
+    "answer_hi": "साफ-सफाई के नियम: 1) खाने से पहले और शौच के बाद साबुन से हाथ धोएं, 2) नाखून छोटे रखें, 3) रोज नहाएं, 4) साफ कपड़े पहनें, 5) पीने का पानी उबालें या फिल्टर करें, 6) खाना ढककर रखें, 7) कूड़ा बाहर फेंकें। साफ-सफाई से 80% बीमारियां रोकी जा सकती हैं।",
+    "tags": ["hygiene", "sanitation", "handwashing", "cleanliness"]
+  },
+  {
+    "id": "health_018",
+    "category": "health",
+    "subcategory": "tuberculosis",
+    "question_hi": "TB की बीमारी क्या है?",
+    "question_variants": ["tuberculosis", "क्षय रोग", "tb treatment"],
+    "answer_hi": "TB (तपेदिक) के लक्षण: 2 सप्ताह से ज्यादा खांसी, बुखार, वजन कम होना, रात को पसीना। इलाज: 1) मुफ्त दवा सरकारी अस्पताल में मिलती है, 2) 6-9 महीने का कोर्स पूरा करें, 3) बीच में न छोड़ें, 4) पौष्टिक खाना खाएं, 5) मुंह ढककर खांसें। TB पूरी तरह ठीक हो सकता है। हेल्पलाइन: 1800-11-6666।",
+    "tags": ["tuberculosis", "tb", "cough", "free_treatment"]
+  },
+  {
+    "id": "health_019",
+    "category": "health",
+    "subcategory": "dehydration",
+    "question_hi": "पानी की कमी के लक्षण क्या हैं?",
+    "question_variants": ["dehydration symptoms", "डिहाइड्रेशन", "water deficiency"],
+    "answer_hi": "पानी की कमी (डिहाइड्रेशन) के लक्षण: 1) बहुत प्यास लगना, 2) मुंह सूखना, 3) पेशाब कम आना या गहरे रंग का, 4) कमजोरी और चक्कर, 5) त्वचा ढीली होना। उपाय: ORS घोल पिएं, नारियल पानी, नींबू पानी, छाछ पिएं। गर्मी में और दस्त-उल्टी में ज्यादा पानी पिएं। बच्चों में जल्दी होता है।",
+    "tags": ["dehydration", "ors", "water", "symptoms"]
+  },
+  {
+    "id": "health_020",
+    "category": "health",
+    "subcategory": "burn",
+    "question_hi": "जलने पर क्या करें?",
+    "question_variants": ["burn treatment", "जलने का इलाज", "fire injury"],
+    "answer_hi": "जलने पर तुरंत: 1) जले हुए हिस्से को 10-15 मिनट ठंडे पानी में रखें, 2) कपड़े उतारें (अगर चिपके न हों), 3) साफ कपड़े से ढकें, 4) बर्फ, तेल, मक्खन, टूथपेस्ट न लगाएं (गलत है), 5) छाले न फोड़ें। अगर जलन ज्यादा हो या बड़ा area हो तो तुरंत अस्पताल जाएं। Burnol cream लगा सकते हैं।",
+    "tags": ["burn", "first_aid", "injury", "cold_water"]
+  }
+]

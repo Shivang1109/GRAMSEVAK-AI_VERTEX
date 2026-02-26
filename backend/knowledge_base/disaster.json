@@ -1,0 +1,59 @@
+[
+  {
+    "id": "disaster_001",
+    "category": "disaster",
+    "subcategory": "flood",
+    "question_hi": "बाढ़ में क्या करें?",
+    "question_variants": [
+      "flood safety",
+      "बाढ़ से बचाव",
+      "flood emergency"
+    ],
+    "answer_hi": "बाढ़ में सुरक्षा: 1) ऊंची जगह पर जाएं, 2) बिजली का मेन स्विच बंद करें, 3) जरूरी सामान (दस्तावेज, दवा, खाना) साथ रखें, 4) बहते पानी में न चलें, 5) राहत कैंप में जाएं, 6) 108 या 1070 पर कॉल करें। पहले से तैयारी: Emergency kit रखें, मौसम की जानकारी रखें, परिवार के साथ plan बनाएं।",
+    "tags": [
+      "flood",
+      "disaster",
+      "emergency",
+      "safety",
+      "relief"
+    ]
+  },
+  {
+    "id": "disaster_002",
+    "category": "disaster",
+    "subcategory": "earthquake",
+    "question_hi": "भूकंप आने पर क्या करें?",
+    "question_variants": [
+      "earthquake safety",
+      "भूकंप",
+      "earthquake drill"
+    ],
+    "answer_hi": "भूकंप के दौरान: 1) अगर घर के अंदर हैं: मेज के नीचे छुपें, दरवाजे की चौखट में खड़े हों, 2) अगर बाहर हैं: खुली जगह में जाएं, बिल्डिंग से दूर रहें, 3) लिफ्ट use न करें, 4) भागें नहीं, शांत रहें, 5) भूकंप रुकने के बाद सावधानी से बाहर निकलें। Drop-Cover-Hold याद रखें। Emergency kit तैयार रखें।",
+    "tags": [
+      "earthquake",
+      "disaster",
+      "safety",
+      "emergency",
+      "drill"
+    ]
+  },
+  {
+    "id": "disaster_003",
+    "category": "disaster",
+    "subcategory": "fire",
+    "question_hi": "आग लगने पर क्या करें?",
+    "question_variants": [
+      "fire safety",
+      "आग बुझाना",
+      "fire emergency"
+    ],
+    "answer_hi": "आग लगने पर: 1) तुरंत 101 पर fire brigade को कॉल करें, 2) छोटी आग: पानी या कंबल से बुझाएं, 3) बड़ी आग: तुरंत बाहर निकलें, 4) धुएं से बचने के लिए नीचे रेंगकर चलें, 5) दरवाजा छूकर देखें (गर्म हो तो न खोलें), 6) लिफ्ट use न करें। रोकथाम: रसोई में सावधानी, बिजली के तार चेक करें, माचिस बच्चों से दूर रखें।",
+    "tags": [
+      "fire",
+      "emergency",
+      "safety",
+      "fire_brigade",
+      "prevention"
+    ]
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "agri_001",
+    "category": "agriculture",
+    "subcategory": "crop_recommendation",
+    "question_hi": "गेहूं की बुवाई कब करनी चाहिए?",
+    "question_variants": ["wheat sowing time", "गेहूं बोने का समय", "gehun ki kheti kab kare"],
+    "answer_hi": "गेहूं की बुवाई नवंबर के पहले-दूसरे सप्ताह में करें। तापमान 20-25°C होना चाहिए। देर से बुवाई (दिसंबर) से उपज कम होती है। मिट्टी में नमी जरूरी है।",
+    "tags": ["wheat", "sowing", "timing", "rabi"]
+  },
+  {
+    "id": "agri_002",
+    "category": "agriculture",
+    "subcategory": "pest_control",
+    "question_hi": "टमाटर में कीड़े लगे हैं क्या करें?",
+    "question_variants": ["tomato pest", "टमाटर में कीट", "tamatar ka keeda"],
+    "answer_hi": "टमाटर में फल छेदक कीट आम है। उपाय: 1) नीम का तेल स्प्रे करें (5ml/लीटर पानी), 2) फेरोमोन ट्रैप लगाएं, 3) प्रभावित फल तोड़कर नष्ट करें। रासायनिक दवा से बचें।",
+    "tags": ["tomato", "pest", "organic", "neem"]
+  },
+  {
+    "id": "agri_003",
+    "category": "agriculture",
+    "subcategory": "weather_advice",
+    "question_hi": "बारिश से पहले क्या करना चाहिए?",
+    "question_variants": ["rain preparation", "बारिश की तैयारी", "barish se pehle"],
+    "answer_hi": "बारिश से पहले: 1) खेत में जल निकासी की नाली बनाएं, 2) खड़ी फसल को सहारा दें, 3) कटी फसल को सुरक्षित रखें, 4) उर्वरक न डालें, 5) मौसम पूर्वानुमान देखें (Meghdoot app)।",
+    "tags": ["rain", "weather", "preparation", "monsoon"]
+  },
+  {
+    "id": "agri_004",
+    "category": "agriculture",
+    "subcategory": "market_price",
+    "question_hi": "मंडी में आज का भाव कैसे पता करें?",
+    "question_variants": ["mandi rate", "मंडी रेट", "market price today"],
+    "answer_hi": "मंडी भाव जानने के लिए: 1) eNAM app डाउनलोड करें, 2) अपनी मंडी चुनें, 3) फसल का नाम डालें। या SMS करें 'MANDI <फसल> <जिला>' 51969 पर। किसान कॉल सेंटर: 1800-180-1551।",
+    "tags": ["mandi", "price", "enam", "market"]
+  },
+  {
+    "id": "agri_005",
+    "category": "agriculture",
+    "subcategory": "organic_farming",
+    "question_hi": "जैविक खाद कैसे बनाएं?",
+    "question_variants": ["organic fertilizer", "जैविक उर्वरक", "compost banane ka tarika"],
+    "answer_hi": "वर्मी कम्पोस्ट बनाना: 1) गड्ढा खोदें (3x3 फीट), 2) गोबर + सूखी पत्तियां + मिट्टी की परत बिछाएं, 3) केंचुए डालें (500-1000), 4) नमी बनाए रखें, 5) 45-60 दिन में तैयार। 1 एकड़ के लिए 2-3 टन चाहिए।",
+    "tags": ["organic", "compost", "vermicompost", "fertilizer"]
+  },
+  {
+    "id": "agri_006",
+    "category": "agriculture",
+    "subcategory": "irrigation",
+    "question_hi": "ड्रिप सिंचाई के क्या फायदे हैं?",
+    "question_variants": ["drip irrigation benefits", "ड्रिप इरिगेशन", "टपक सिंचाई"],
+    "answer_hi": "ड्रिप सिंचाई से 50-60% पानी बचता है। फायदे: 1) सीधे जड़ों में पानी, 2) खरपतवार कम, 3) उर्वरक भी साथ दे सकते हैं, 4) उपज 20-30% बढ़ती है। सब्सिडी: PMKSY योजना में 55-90% तक।",
+    "tags": ["irrigation", "drip", "water_saving", "subsidy"]
+  },
+  {
+    "id": "agri_007",
+    "category": "agriculture",
+    "subcategory": "soil_health",
+    "question_hi": "मिट्टी की जांच कैसे कराएं?",
+    "question_variants": ["soil testing", "मिट्टी परीक्षण", "soil health card"],
+    "answer_hi": "मिट्टी जांच के लिए: 1) नजदीकी कृषि विज्ञान केंद्र जाएं, 2) खेत से 500gm मिट्टी का नमूना लें (6-8 इंच गहराई से), 3) ₹20-50 शुल्क, 4) 7-10 दिन में रिपोर्ट। Soil Health Card मुफ्त मिलता है।",
+    "tags": ["soil", "testing", "health_card", "krishi_vigyan"]
+  },
+  {
+    "id": "agri_008",
+    "category": "agriculture",
+    "subcategory": "kisan_credit_card",
+    "question_hi": "किसान क्रेडिट कार्ड कैसे बनवाएं?",
+    "question_variants": ["KCC application", "किसान कार्ड", "kisan credit card"],
+    "answer_hi": "KCC बनवाने के लिए: 1) नजदीकी बैंक जाएं, 2) जमीन के कागज + आधार + फोटो ले जाएं, 3) 3 लाख तक लोन मिलता है, 4) ब्याज 4% (सब्सिडी के बाद), 5) फसल बीमा भी साथ मिलता है। pmkisan.gov.in पर ऑनलाइन भी कर सकते हैं।",
+    "tags": ["kcc", "loan", "credit", "bank"]
+  },
+  {
+    "id": "agri_009",
+    "category": "agriculture",
+    "subcategory": "crop_recommendation",
+    "question_hi": "धान की खेती कब और कैसे करें?",
+    "question_variants": ["rice farming", "धान बोने का समय", "paddy cultivation"],
+    "answer_hi": "धान की खेती जून-जुलाई में करें (खरीफ सीजन)। पहले नर्सरी में बीज बोएं, 25-30 दिन बाद रोपाई करें। खेत में 2-3 इंच पानी रखें। 120-150 दिन में फसल तैयार। प्रति एकड़ 20-25 क्विंटल उपज।",
+    "tags": ["rice", "paddy", "kharif", "water"]
+  },
+  {
+    "id": "agri_010",
+    "category": "agriculture",
+    "subcategory": "pest_control",
+    "question_hi": "गन्ने में लाल सड़न रोग का इलाज क्या है?",
+    "question_variants": ["sugarcane disease", "गन्ना रोग", "red rot treatment"],
+    "answer_hi": "लाल सड़न रोग से बचाव: 1) रोग प्रतिरोधी किस्में लगाएं (CO 0238, CoJ 64), 2) बीज को Carbendazim से उपचारित करें, 3) प्रभावित पौधे उखाड़कर जला दें, 4) फसल चक्र अपनाएं। रोकथाम ही बेहतर उपाय है।",
+    "tags": ["sugarcane", "disease", "red_rot", "fungus"]
+  },
+  {
+    "id": "agri_011",
+    "category": "agriculture",
+    "subcategory": "fertilizer",
+    "question_hi": "यूरिया खाद कब और कितनी डालें?",
+    "question_variants": ["urea application", "नाइट्रोजन खाद", "fertilizer timing"],
+    "answer_hi": "यूरिया (नाइट्रोजन) खाद 2-3 बार में डालें: 1) बुवाई के समय 1/3 भाग, 2) 30 दिन बाद 1/3 भाग, 3) 60 दिन बाद 1/3 भाग। गेहूं के लिए 120-150 kg/हेक्टेयर, धान के लिए 150-180 kg/हेक्टेयर। नमी होने पर ही डालें।",
+    "tags": ["urea", "fertilizer", "nitrogen", "timing"]
+  },
+  {
+    "id": "agri_012",
+    "category": "agriculture",
+    "subcategory": "water_management",
+    "question_hi": "सूखे में फसल कैसे बचाएं?",
+    "question_variants": ["drought management", "पानी की कमी", "water stress"],
+    "answer_hi": "सूखे में फसल बचाने के उपाय: 1) मल्चिंग करें (भूसा/पुआल बिछाएं), 2) शाम को सिंचाई करें, 3) खरपतवार हटाएं (पानी बचेगा), 4) Anti-transpirant स्प्रे करें, 5) कम पानी वाली फसल उगाएं (बाजरा, मूंग)।",
+    "tags": ["drought", "water_saving", "mulching", "irrigation"]
+  },
+  {
+    "id": "agri_013",
+    "category": "agriculture",
+    "subcategory": "storage",
+    "question_hi": "अनाज को कीड़ों से कैसे बचाएं?",
+    "question_variants": ["grain storage", "अनाज भंडारण", "pest in storage"],
+    "answer_hi": "अनाज भंडारण के उपाय: 1) अनाज को धूप में सुखाएं (नमी 12% से कम), 2) साफ बोरों में भरें, 3) नीम की पत्तियां मिलाएं, 4) Aluminium Phosphide की गोलियां रखें, 5) हवादार जगह पर रखें। हर महीने जांच करें।",
+    "tags": ["storage", "grain", "pest_control", "preservation"]
+  },
+  {
+    "id": "agri_014",
+    "category": "agriculture",
+    "subcategory": "horticulture",
+    "question_hi": "आम के पेड़ में फूल कैसे लाएं?",
+    "question_variants": ["mango flowering", "आम में बौर", "fruit tree care"],
+    "answer_hi": "आम में फूल लाने के लिए: 1) अक्टूबर-नवंबर में पानी रोक दें (2 महीने), 2) दिसंबर में Paclobutrazol स्प्रे करें, 3) जनवरी में हल्की सिंचाई शुरू करें, 4) फूल आने पर Urea 1% स्प्रे करें। 5-7 साल पुराने पेड़ में फल आते हैं।",
+    "tags": ["mango", "flowering", "horticulture", "fruit"]
+  },
+  {
+    "id": "agri_015",
+    "category": "agriculture",
+    "subcategory": "animal_husbandry",
+    "question_hi": "गाय को दूध बढ़ाने के लिए क्या खिलाएं?",
+    "question_variants": ["cattle feed", "दूध उत्पादन", "dairy nutrition"],
+    "answer_hi": "दूध बढ़ाने के लिए: 1) हरा चारा 25-30 kg/दिन (बरसीम, ज्वार), 2) सूखा चारा 5-7 kg (भूसा), 3) दाना मिश्रण 1 kg प्रति 2.5 लीटर दूध, 4) खनिज मिश्रण 50 gm/दिन, 5) साफ पानी 40-50 लीटर। नियमित दुहाई जरूरी।",
+    "tags": ["cattle", "dairy", "feed", "milk_production"]
+  },
+  {
+    "id": "agri_016",
+    "category": "agriculture",
+    "subcategory": "government_scheme",
+    "question_hi": "किसान क्रेडिट कार्ड पर कितना ब्याज लगता है?",
+    "question_variants": ["KCC interest rate", "किसान लोन", "credit card farming"],
+    "answer_hi": "KCC पर ब्याज दर 7% है। समय पर चुकाने पर 3% की छूट मिलती है, यानी असली ब्याज 4% हो जाता है। 3 लाख तक का लोन मिलता है। फसल बीमा भी साथ में मिलता है। नजदीकी बैंक में आवेदन करें।",
+    "tags": ["kcc", "loan", "interest", "credit"]
+  },
+  {
+    "id": "agri_017",
+    "category": "agriculture",
+    "subcategory": "modern_farming",
+    "question_hi": "हाइड्रोपोनिक्स खेती क्या है?",
+    "question_variants": ["soilless farming", "बिना मिट्टी खेती", "hydroponics"],
+    "answer_hi": "हाइड्रोपोनिक्स में बिना मिट्टी के पानी में पोषक तत्व घोलकर खेती करते हैं। फायदे: 1) 90% कम पानी, 2) कम जगह में ज्यादा उपज, 3) साल भर खेती, 4) कीट-रोग कम। सब्जियां (टमाटर, खीरा, पत्तागोभी) अच्छी होती हैं। शुरुआती खर्च ₹2-3 लाख।",
+    "tags": ["hydroponics", "modern_farming", "soilless", "technology"]
+  },
+  {
+    "id": "agri_018",
+    "category": "agriculture",
+    "subcategory": "crop_disease",
+    "question_hi": "आलू में झुलसा रोग का इलाज क्या है?",
+    "question_variants": ["potato blight", "आलू रोग", "late blight treatment"],
+    "answer_hi": "आलू में झुलसा (Late Blight) रोग का इलाज: 1) Mancozeb या Metalaxyl स्प्रे करें (7-10 दिन के अंतर पर), 2) प्रभावित पत्तियां तोड़ें, 3) जल निकासी सुधारें, 4) रोग प्रतिरोधी किस्में लगाएं (Kufri Jyoti)। नमी और ठंड में रोग तेजी से फैलता है।",
+    "tags": ["potato", "disease", "blight", "fungicide"]
+  },
+  {
+    "id": "agri_019",
+    "category": "agriculture",
+    "subcategory": "crop_recommendation",
+    "question_hi": "मिट्टी के अनुसार कौन सी फसल उगाएं?",
+    "question_variants": ["soil type crop", "मिट्टी और फसल", "which crop for my soil"],
+    "answer_hi": "काली मिट्टी: कपास, सोयाबीन, गेहूं। लाल मिट्टी: मूंगफली, दालें, बाजरा। जलोढ़ मिट्टी: धान, गन्ना, गेहूं। बलुई मिट्टी: बाजरा, मूंग, तरबूज। मिट्टी की जांच कराकर सही फसल चुनें। Soil Health Card से मुफ्त जांच।",
+    "tags": ["soil_type", "crop_selection", "soil_health"]
+  },
+  {
+    "id": "agri_020",
+    "category": "agriculture",
+    "subcategory": "season_advice",
+    "question_hi": "खरीफ और रबी में क्या अंतर है?",
+    "question_variants": ["kharif rabi difference", "मौसम के अनुसार खेती", "crop seasons"],
+    "answer_hi": "खरीफ: जून-जुलाई में बुवाई, सितंबर-अक्टूबर में कटाई। फसलें: धान, मक्का, बाजरा, कपास, सोयाबीन। रबी: अक्टूबर-नवंबर में बुवाई, मार्च-अप्रैल में कटाई। फसलें: गेहूं, चना, सरसों, जौ। जायद: गर्मी की फसल (तरबूज, खीरा)।",
+    "tags": ["kharif", "rabi", "seasons", "crop_timing"]
+  },
+  {
+    "id": "agri_021",
+    "category": "agriculture",
+    "subcategory": "weather_advisory",
+    "question_hi": "मौसम की जानकारी कहां से मिलेगी?",
+    "question_variants": ["weather forecast", "मौसम पूर्वानुमान", "weather app for farmers"],
+    "answer_hi": "मौसम जानकारी के लिए: 1) Meghdoot app (IMD का official app), 2) Kisan Suvidha app, 3) mausam.imd.gov.in वेबसाइट, 4) SMS: 'WEATHER <जिला कोड>' भेजें 7829021111 पर। 7 दिन का पूर्वानुमान मिलता है। बुवाई-कटाई के समय जरूर देखें।",
+    "tags": ["weather", "forecast", "meghdoot", "advisory"]
+  },
+  {
+    "id": "agri_022",
+    "category": "agriculture",
+    "subcategory": "market_price",
+    "question_hi": "आज की मंडी में क्या भाव है?",
+    "question_variants": ["today mandi rate", "आज का भाव", "crop price today"],
+    "answer_hi": "आज की मंडी भाव जानने के लिए: 1) eNAM app डाउनलोड करें, 2) अपनी मंडी और फसल चुनें, 3) Live rates देखें। या agmarknet.gov.in पर देखें। SMS: 'MANDI <फसल> <जिला>' भेजें 51969 पर। किसान कॉल सेंटर: 1800-180-1551।",
+    "tags": ["mandi_rate", "price", "enam", "market"]
+  },
+  {
+    "id": "agri_023",
+    "category": "agriculture",
+    "subcategory": "organic_farming",
+    "question_hi": "जैविक खेती में कीटनाशक कैसे बनाएं?",
+    "question_variants": ["organic pesticide", "घर का कीटनाशक", "natural pest control"],
+    "answer_hi": "घर पर जैविक कीटनाशक: 1) नीम का तेल स्प्रे (5ml/लीटर पानी), 2) लहसुन-मिर्च का घोल (100gm पीसकर 1 लीटर पानी में), 3) गोमूत्र (1 लीटर में 10 लीटर पानी मिलाकर), 4) बटरमिल्क स्प्रे। हर 7-10 दिन में छिड़काव करें। रासायनिक दवा से सुरक्षित।",
+    "tags": ["organic", "pesticide", "natural", "neem"]
+  },
+  {
+    "id": "agri_024",
+    "category": "agriculture",
+    "subcategory": "fertilizer_guidance",
+    "question_hi": "NPK खाद क्या है और कब डालें?",
+    "question_variants": ["npk fertilizer", "एनपीके खाद", "fertilizer ratio"],
+    "answer_hi": "NPK = Nitrogen (N), Phosphorus (P), Potassium (K)। N: पत्तियों की वृद्धि, P: जड़ और फूल, K: फल और रोग प्रतिरोधक। अनुपात: धान के लिए 120:60:40, गेहूं के लिए 120:60:40। बुवाई के समय DAP, 30 दिन बाद Urea, 60 दिन बाद MOP डालें। Soil test के अनुसार मात्रा तय करें।",
+    "tags": ["npk", "fertilizer", "nitrogen", "phosphorus"]
+  },
+  {
+    "id": "agri_025",
+    "category": "agriculture",
+    "subcategory": "kisan_credit_card",
+    "question_hi": "KCC से कितना लोन मिलेगा?",
+    "question_variants": ["kcc se kitna loan milega", "किसान क्रेडिट कार्ड लोन", "kcc loan amount"],
+    "answer_hi": "₹3 लाख तक का लोन मिल सकता है। खेती के लिए। ब्याज दर 7% है लेकिन समय पर चुकाने पर 3% की छूट। असली ब्याज 4% हो जाता है। कर्जदारी की कोई हिसाब नहीं। आवेदन बैंक में करें।",
+    "tags": ["kcc", "loan", "credit", "interest"]
+  },
+  {
+    "id": "agri_026",
+    "category": "agriculture",
+    "subcategory": "kisan_credit_card",
+    "question_hi": "बायल दर क्या है?",
+    "question_variants": ["byal dar kya hai", "ब्याज दर", "interest rate kcc"],
+    "answer_hi": "KCC पर ब्याज दर 7% खाता पर होती है। समय पर चुकाने पर 3% छूट मिल जाती है। बैंक से पूरी जानकारी लें। कोई छुपा हुआ चार्ज नहीं।",
+    "tags": ["kcc", "interest", "rate", "loan"]
+  },
+  {
+    "id": "agri_027",
+    "category": "agriculture",
+    "subcategory": "fasal_bima",
+    "question_hi": "फसल खराब होने पर कितना पैसा मिलेगा?",
+    "question_variants": ["fasal kharab hone par kitna paisa milega", "फसल बीमा क्लेम", "crop insurance claim"],
+    "answer_hi": "फसल का अनुमान मुआवजा मिलेगा। बीमा राशि के अनुसार। प्रीमियम बहुत कम होगा (2-3%)। बाकी सरकार देती है। pmfby.gov.in पर क्लेम करें। 72 घंटे के अंदर सूचना दें।",
+    "tags": ["fasal_bima", "crop_insurance", "claim", "compensation"]
+  },
+  {
+    "id": "agri_028",
+    "category": "agriculture",
+    "subcategory": "fasal_bima",
+    "question_hi": "क्लेम कैसे करें?",
+    "question_variants": ["claim kaise kare", "बीमा क्लेम", "insurance claim process"],
+    "answer_hi": "फसल का नुकसान 72 घंटे के अंदर बताएं। बैंक या बीमा कंपनी को। ऑनलाइन pmfby.gov.in पर भी कर सकते हैं। सर्वे होगा। फिर पैसा बैंक में आएगा।",
+    "tags": ["claim", "insurance", "process", "pmfby"]
+  },
+  {
+    "id": "agri_029",
+    "category": "agriculture",
+    "subcategory": "sukanya_samriddhi",
+    "question_hi": "बेटी के लिए क्या जमा करें?",
+    "question_variants": ["beti ke liye kya jama kare", "सुकन्या योजना", "girl child savings"],
+    "answer_hi": "साल में ₹250 से ₹1.5 लाख तक जमा कर सकते हैं। ब्याज दर लगभग 8% है। 21 साल तक जमा करें। इसमें टैक्स छूट भी है। बैंक या पोस्ट ऑफिस में खाता खोलें।",
+    "tags": ["sukanya", "savings", "girl_child", "investment"]
+  },
+  {
+    "id": "agri_030",
+    "category": "agriculture",
+    "subcategory": "atal_pension",
+    "question_hi": "महीने में पेंशन कितनी मिलेगी?",
+    "question_variants": ["mahine mein pension kitni milegi", "अटल पेंशन राशि", "pension amount"],
+    "answer_hi": "₹1000 से ₹5000 तक पेंशन मिल सकती है। हर महीने। निर्भर करता है कि आप कितना जमा करते हैं। 60 साल के बाद मिलेगा। जितनी जल्दी शुरू करें उतना कम जमा करना होगा।",
+    "tags": ["atal_pension", "pension", "retirement", "monthly"]
+  },
+  {
+    "id": "agri_031",
+    "category": "agriculture",
+    "subcategory": "mudra_loan",
+    "question_hi": "मुद्रा लोन कितना मिलेगा?",
+    "question_variants": ["mudra loan kitna milega", "मुद्रा योजना राशि", "small business loan"],
+    "answer_hi": "₹50000 से ₹10 लाख तक का लोन मिल सकता है। तीन श्रेणी हैं: शिशु, किशोर, तरुण। छोटे बिजनेस के लिए। mudra.org.in पर जाएं। बैंक में आवेदन करें।",
+    "tags": ["mudra", "loan", "business", "amount"]
+  },
+  {
+    "id": "agri_032",
+    "category": "agriculture",
+    "subcategory": "ration_card",
+    "question_hi": "राशन कार्ड कैसे बनेगा?",
+    "question_variants": ["ration card kaise banega", "राशन कार्ड आवेदन", "food card"],
+    "answer_hi": "राशन कार्ड बनवाने के लिए: 1) nfsa.gov.in पर जाएं, 2) ऑनलाइन आवेदन करें, 3) दस्तावेज: आधार, पता प्रमाण, आय प्रमाण। या राशन की दुकान पर फॉर्म भरें। 15 दिन में बन जाता है।",
+    "tags": ["ration_card", "food", "subsidy", "nfsa"]
+  },
+  {
+    "id": "agri_033",
+    "category": "agriculture",
+    "subcategory": "ration_card",
+    "question_hi": "कितना राशन मिलेगा?",
+    "question_variants": ["kitna ration milega", "राशन मात्रा", "food quantity"],
+    "answer_hi": "प्रति व्यक्ति 5 किलो अनाज मिलता है। चावल या गेहूं। बहुत सस्ते दाम पर (₹2-3 प्रति किलो)। हर महीने मिलता है। राशन कार्ड दिखाकर लें।",
+    "tags": ["ration", "food", "quantity", "subsidy"]
+  },
+  {
+    "id": "agri_034",
+    "category": "agriculture",
+    "subcategory": "swachh_bharat",
+    "question_hi": "शौचालय के लिए पैसा मिलेगा?",
+    "question_variants": ["shauchalay ke liye paisa milega", "टॉयलेट सब्सिडी", "toilet subsidy"],
+    "answer_hi": "शौचालय बनाने के लिए ₹12000 मिलते हैं। दो किस्तों में। पैसा सीधे बैंक खाते में आता है। ग्राम पंचायत में आवेदन करें। शौचालय बनने के बाद फोटो दिखानी होगी।",
+    "tags": ["swachh_bharat", "toilet", "subsidy", "sanitation"]
+  }
+]
