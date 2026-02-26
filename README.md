@@ -15,12 +15,24 @@
 
 ---
 
+## 🏆 Hackathon Submission
+
+**Track:** Track 1 - AI, Data & Smart Systems
+
+**Problem Statement 3:** Low-Bandwidth AI Assistant for Rural Areas
+
+**Challenge:** Design an AI assistant optimized for low internet connectivity that can serve rural populations with limited bandwidth, intermittent network access, and low-end devices.
+
+**Our Solution:** GramSevak AI achieves 95% bandwidth reduction compared to traditional AI assistants while maintaining high accuracy and providing offline-first functionality for rural India.
+
+---
+
 ## 👥 Team Members
 
-- **SHUBHAM SINGH** - LEADER/ PRESENTER 
-- **SHIVANG PATHAK** - BACKEND DEVELOPER
-- **SAURABH TIWARI** - UI/UX DESIGNER
-- **SHIVAM MISHRA** - FRONTEND DEVELOPER 
+- **SHUBHAM SINGH** - Team Leader / Presenter
+- **SHIVANG PATHAK** - Backend Developer
+- **SAURABH TIWARI** - UI/UX Designer
+- **SHIVAM MISHRA** - Frontend Developer
 
 ---
 
@@ -206,7 +218,7 @@
 
 #### 1. Clone Repository
 ```bash
-git clone https://github.com/Shivang1109/GRAMSEVAK-AI_VERTEX
+git clone https://github.com/yourusername/gramsevak-ai.git
 cd gramsevak-ai
 ```
 
@@ -580,6 +592,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 📚 Documentation
 
 - [Quick Start Guide](QUICKSTART.md) - Get started in 5 minutes
 - [Project Summary](PROJECT_SUMMARY.md) - Detailed project overview
@@ -594,14 +607,6 @@ If you find this project useful, please consider giving it a star ⭐
 
 ---
 
-## 📈 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/gramsevak-ai?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/gramsevak-ai?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/gramsevak-ai)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/gramsevak-ai)
-
----
 
 <div align="center">
 
