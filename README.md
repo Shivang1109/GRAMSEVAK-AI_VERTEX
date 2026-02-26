@@ -582,27 +582,31 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌐 Live Deployment
 
-### Production URLs
+### 🚀 Production URLs
 
-- **Backend API:** https://gramsevak-ai-vertex-2.onrender.com
-- **API Health Check:** https://gramsevak-ai-vertex-2.onrender.com/health
-- **API Documentation:** https://gramsevak-ai-vertex-2.onrender.com/docs
-- **Frontend:** Deploy on Netlify (see instructions below)
+| Service | URL | Status |
+|---------|-----|--------|
+| **Frontend App** | https://gramsevak-ai.netlify.app | ✅ Live |
+| **Backend API** | https://gramsevak-ai-vertex-2.onrender.com | ✅ Live |
+| **API Documentation** | https://gramsevak-ai-vertex-2.onrender.com/docs | ✅ Live |
+| **Analytics Dashboard** | https://gramsevak-ai.netlify.app/stats-dashboard.html | ✅ Live |
 
-### Deploy Frontend to Netlify
+### 🎯 Try It Now!
 
-1. Go to [Netlify](https://app.netlify.com)
-2. Sign in with GitHub
-3. Click "Add new site" → "Import an existing project"
-4. Select your GitHub repository: `GRAMSEVAK-AI_VERTEX`
-5. Configure build settings:
-   - Base directory: `frontend`
-   - Publish directory: `.` (current directory)
-   - Build command: (leave empty)
-6. Click "Deploy site"
-7. Your app will be live at: `https://your-site-name.netlify.app`
+Visit **https://gramsevak-ai.netlify.app** and:
+- 🎤 Click the microphone to ask in Hindi
+- 📴 Try offline mode (works after first load)
+- 💾 See bandwidth savings in real-time
+- 📊 Check analytics at `/stats-dashboard.html`
 
-The frontend is already configured to use the production backend URL.
+### 🧪 Test Queries
+
+```
+पीएम किसान योजना में कितने पैसे मिलते हैं?
+आयुष्मान भारत क्या है?
+गेहूं की बुवाई कब करें?
+मनरेगा में कितने दिन काम मिलता है?
+```
 
 ---
 
