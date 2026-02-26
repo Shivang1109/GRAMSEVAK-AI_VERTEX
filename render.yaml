@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: gramsevak-ai-backend
+    env: python
+    region: oregon
+    buildCommand: "cd backend && pip install -r requirements.txt && python build_index.py"
+    startCommand: "cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: ADMIN_TOKEN
+        value: gramsevak_admin_2024
+      - key: PORT
+        value: 8000
