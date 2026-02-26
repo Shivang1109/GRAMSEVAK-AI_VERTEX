@@ -59,5 +59,31 @@
     ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.85
+  },
+  {
+    "id": "scholarship_001",
+    "category": "education",
+    "title": "National Scholarship Portal",
+    "question_hi": "छात्रवृत्ति के लिए कैसे आवेदन करें?",
+    "question_variants": [
+      "scholarship application online",
+      "स्कॉलरशिप कब आती है",
+      "nsp portal"
+    ],
+    "summary": "छात्रवृत्ति के लिए scholarships.gov.in पर आवेदन करें। Pre-Matric (कक्षा 1-10) और Post-Matric (11वीं के बाद) स्कॉलरशिप उपलब्ध हैं। SC/ST/OBC/अल्पसंख्यक छात्रों को प्राथमिकता। आवेदन अगस्त-अक्टूबर में खुलते हैं। पैसा सीधे बैंक खाते में आता है।",
+    "tags": [
+      "scholarship",
+      "education",
+      "students"
+    ],
+    "last_updated": "2024-02-26",
+    "confidence_weight": 0.85,
+    "eligibility": "नियमित छात्र, परिवार की आय ₹2.5 लाख से कम",
+    "documents_required": [
+      "आधार कार्ड",
+      "बैंक खाता",
+      "आय प्रमाण पत्र",
+      "मार्कशीट"
+    ]
   }
 ]

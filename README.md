@@ -64,6 +64,7 @@
 
 #### ⚡ Technical Excellence
 - 🚀 **<2KB per query** (vs 45KB for ChatGPT)
+- 🎯 **Intent Classification** - Smart category detection (<5ms)
 - 📴 **Offline-first** - Works without internet
 - 🎤 **Voice-enabled** - Speak in Hindi/regional languages
 - 🌐 **Multi-language** - Hindi, Tamil, Telugu, Bengali, Marathi

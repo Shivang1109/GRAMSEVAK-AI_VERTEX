@@ -27,7 +27,8 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 You should see:
 ```
-✓ Loaded 45+ entries from knowledge base
+✓ Intent classifier initialized
+✓ Loaded 97 entries from knowledge base
 INFO:     Uvicorn running on http://0.0.0.0:8000
 ```
 
@@ -69,7 +70,17 @@ php -S localhost:8001
 2. Check bandwidth tracker at bottom
 3. See: "1.8 KB used, 95% saved"
 
-### Test 4: Multi-Domain Queries
+### Test 4: Intent Classification
+1. Open browser console (F12)
+2. Ask: "पीएम किसान योजना क्या है?"
+3. Check backend console for:
+   ```
+   🎯 Intent Classification: government_schemes (confidence: 0.70, time: 0.15ms)
+   🔍 Searching in category: government_schemes (13 entries)
+   ```
+4. Notice category badge in response card: "🏛️ योजना"
+
+### Test 5: Multi-Domain Queries
 Try these queries to test all categories:
 
 **Government Schemes:**

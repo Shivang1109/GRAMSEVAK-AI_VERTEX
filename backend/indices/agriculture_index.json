@@ -677,5 +677,56 @@
     ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.85
+  },
+  {
+    "id": "pmkisan_001",
+    "category": "agriculture",
+    "title": "PM-KISAN",
+    "question_hi": "पीएम किसान योजना में कितने पैसे मिलते हैं?",
+    "question_variants": [
+      "किसान सम्मान निधि क्या है",
+      "pm kisan ka paisa kitna hai",
+      "किसान योजना में कितना मिलता है"
+    ],
+    "summary": "पीएम-किसान योजना में हर साल ₹6000 मिलते हैं। यह तीन किस्तों में ₹2000-₹2000 करके आते हैं। पात्र किसान pmkisan.gov.in पर आवेदन कर सकते हैं।",
+    "tags": [
+      "farming",
+      "money",
+      "central_scheme"
+    ],
+    "last_updated": "2024-02-26",
+    "confidence_weight": 0.85,
+    "eligibility": "2 हेक्टेयर तक जमीन वाले किसान परिवार",
+    "documents_required": [
+      "आधार कार्ड",
+      "खाता नंबर",
+      "जमीन के कागज"
+    ]
+  },
+  {
+    "id": "fasal_bima_001",
+    "category": "agriculture",
+    "title": "PM Fasal Bima Yojana",
+    "question_hi": "फसल बीमा में कितना प्रीमियम देना होता है?",
+    "question_variants": [
+      "crop insurance premium",
+      "फसल खराब होने पर क्लेम",
+      "pmfby scheme"
+    ],
+    "summary": "फसल बीमा में खरीफ फसल के लिए 2% और रबी फसल के लिए 1.5% प्रीमियम देना होता है। बाकी प्रीमियम सरकार देती है। फसल खराब होने पर बीमा राशि मिलती है। बुवाई के 10 दिन के अंदर आवेदन करें।",
+    "tags": [
+      "insurance",
+      "crop",
+      "farming"
+    ],
+    "last_updated": "2024-02-26",
+    "confidence_weight": 0.85,
+    "eligibility": "सभी किसान (अपनी या किराए की जमीन पर खेती करने वाले)",
+    "documents_required": [
+      "आधार कार्ड",
+      "बैंक खाता",
+      "जमीन के कागज",
+      "बुवाई प्रमाण"
+    ]
   }
 ]

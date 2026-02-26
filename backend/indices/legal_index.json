@@ -66,9 +66,19 @@
     "category": "legal",
     "title": "FIR कैसे दर्ज करें?",
     "question_hi": "FIR कैसे दर्ज करें?",
-    "question_variants": ["file fir", "एफआईआर दर्ज", "police complaint"],
+    "question_variants": [
+      "file fir",
+      "एफआईआर दर्ज",
+      "police complaint"
+    ],
     "summary": "FIR दर्ज करने के लिए: 1) नजदीकी पुलिस स्टेशन जाएं, 2) घटना की जानकारी दें, 3) लिखित शिकायत दें, 4) FIR की कॉपी मुफ्त मिलनी चाहिए, 5) ऑनलाइन भी कर सकते हैं (राज्य के अनुसार)। अगर पुलिस FIR न लिखे तो SP को शिकायत करें। Emergency: 100 डायल करें।",
-    "tags": ["fir", "police", "complaint", "crime", "emergency"],
+    "tags": [
+      "fir",
+      "police",
+      "complaint",
+      "crime",
+      "emergency"
+    ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.88
   },
@@ -77,9 +87,18 @@
     "category": "legal",
     "title": "विवाह पंजीकरण कैसे करें?",
     "question_hi": "विवाह पंजीकरण कैसे करें?",
-    "question_variants": ["marriage registration", "शादी रजिस्ट्रेशन", "marriage certificate"],
+    "question_variants": [
+      "marriage registration",
+      "शादी रजिस्ट्रेशन",
+      "marriage certificate"
+    ],
     "summary": "विवाह पंजीकरण: 1) Sub-Registrar office जाएं, 2) दोनों पति-पत्नी उपस्थित रहें, 3) दस्तावेज: आधार, फोटो, शादी का प्रमाण, 2 गवाह, 4) फॉर्म भरें, 5) शुल्क ₹50-100। कुछ राज्यों में ऑनलाइन भी हो सकता है। Marriage certificate बहुत जरूरी है - पासपोर्ट, वीजा, बैंक में काम आता है।",
-    "tags": ["marriage", "registration", "certificate", "legal_document"],
+    "tags": [
+      "marriage",
+      "registration",
+      "certificate",
+      "legal_document"
+    ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.87
   },
@@ -88,9 +107,18 @@
     "category": "legal",
     "title": "तलाक कैसे लें?",
     "question_hi": "तलाक कैसे लें?",
-    "question_variants": ["divorce process", "तलाक प्रक्रिया", "separation"],
+    "question_variants": [
+      "divorce process",
+      "तलाक प्रक्रिया",
+      "separation"
+    ],
     "summary": "तलाक लेने के लिए: 1) पहले counseling try करें, 2) अगर दोनों राजी हैं तो Mutual Consent Divorce (6 महीने में), 3) अगर एक पक्ष राजी नहीं तो Court में petition file करें, 4) वकील की जरूरत होगी, 5) गुजारा भत्ता, बच्चों की custody तय होगी। Legal Aid से मुफ्त वकील मिल सकता है। Women Helpline: 181।",
-    "tags": ["divorce", "family_law", "court", "legal_aid"],
+    "tags": [
+      "divorce",
+      "family_law",
+      "court",
+      "legal_aid"
+    ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.84
   },
@@ -99,9 +127,18 @@
     "category": "legal",
     "title": "जाति प्रमाण पत्र कैसे बनवाएं?",
     "question_hi": "जाति प्रमाण पत्र कैसे बनवाएं?",
-    "question_variants": ["caste certificate", "जाति प्रमाण", "sc st certificate"],
+    "question_variants": [
+      "caste certificate",
+      "जाति प्रमाण",
+      "sc st certificate"
+    ],
     "summary": "जाति प्रमाण पत्र: 1) तहसील या SDM office जाएं, 2) आवेदन फॉर्म भरें, 3) दस्तावेज: आधार, राशन कार्ड, माता-पिता का जाति प्रमाण, 4) ऑनलाइन भी कर सकते हैं (e-District portal), 5) 15-30 दिन में बन जाता है। SC/ST/OBC के लिए जरूरी - छात्रवृत्ति, नौकरी, आरक्षण के लिए।",
-    "tags": ["caste_certificate", "sc_st_obc", "reservation", "edistrict"],
+    "tags": [
+      "caste_certificate",
+      "sc_st_obc",
+      "reservation",
+      "edistrict"
+    ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.89
   },
@@ -110,9 +147,17 @@
     "category": "legal",
     "title": "आय प्रमाण पत्र कैसे बनवाएं?",
     "question_hi": "आय प्रमाण पत्र कैसे बनवाएं?",
-    "question_variants": ["income certificate", "आय प्रमाण", "income proof"],
+    "question_variants": [
+      "income certificate",
+      "आय प्रमाण",
+      "income proof"
+    ],
     "summary": "आय प्रमाण पत्र: 1) तहसील या e-District portal पर आवेदन करें, 2) दस्तावेज: आधार, राशन कार्ड, salary slip/income proof, 3) Self-declaration affidavit, 4) शुल्क ₹20-50, 5) 7-15 दिन में बन जाता है। छात्रवृत्ति, सरकारी योजनाओं, admission के लिए जरूरी। 1 साल के लिए valid होता है।",
-    "tags": ["income_certificate", "edistrict", "government_document"],
+    "tags": [
+      "income_certificate",
+      "edistrict",
+      "government_document"
+    ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.88
   },
@@ -121,9 +166,18 @@
     "category": "legal",
     "title": "मुफ्त कानूनी सहायता कैसे मिलेगी?",
     "question_hi": "मुफ्त कानूनी सहायता कैसे मिलेगी?",
-    "question_variants": ["free legal aid", "मुफ्त वकील", "legal help"],
+    "question_variants": [
+      "free legal aid",
+      "मुफ्त वकील",
+      "legal help"
+    ],
     "summary": "मुफ्त कानूनी सहायता: 1) District Legal Services Authority (DLSA) में जाएं, 2) पात्रता: गरीब, महिला, SC/ST, बच्चे, दिव्यांग, 3) मुफ्त वकील मिलेगा, 4) Court fees भी माफ, 5) Helpline: 15100 (NALSA)। हर जिले में DLSA office है। सभी प्रकार के मामलों में मदद मिलती है।",
-    "tags": ["legal_aid", "free_lawyer", "nalsa", "dlsa"],
+    "tags": [
+      "legal_aid",
+      "free_lawyer",
+      "nalsa",
+      "dlsa"
+    ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.87
   },
@@ -132,20 +186,38 @@
     "category": "legal",
     "title": "घरेलू हिंसा में क्या करें?",
     "question_hi": "घरेलू हिंसा में क्या करें?",
-    "question_variants": ["domestic violence", "घरेलू हिंसा", "wife beating"],
+    "question_variants": [
+      "domestic violence",
+      "घरेलू हिंसा",
+      "wife beating"
+    ],
     "summary": "घरेलू हिंसा में: 1) तुरंत Women Helpline 181 पर कॉल करें, 2) Police में complaint करें (FIR), 3) Protection Officer से मिलें, 4) Domestic Violence Act के तहत protection order ले सकती हैं, 5) मुफ्त legal aid मिलेगी। Shelter home की सुविधा भी है। Emergency: 100 या 112 डायल करें।",
-    "tags": ["domestic_violence", "women_safety", "helpline_181", "protection"],
+    "tags": [
+      "domestic_violence",
+      "women_safety",
+      "helpline_181",
+      "protection"
+    ],
     "last_updated": "2024-02-26",
-    "confidence_weight": 0.90
+    "confidence_weight": 0.9
   },
   {
     "id": "legal_011",
     "category": "legal",
     "title": "वसीयत कैसे लिखें?",
     "question_hi": "वसीयत कैसे लिखें?",
-    "question_variants": ["will writing", "वसीयत", "testament"],
+    "question_variants": [
+      "will writing",
+      "वसीयत",
+      "testament"
+    ],
     "summary": "वसीयत लिखने के लिए: 1) सादे कागज पर लिखें या टाइप करें, 2) अपनी सभी संपत्ति का विवरण दें, 3) किसको क्या देना है वो लिखें, 4) तारीख और हस्ताक्षर करें, 5) 2 गवाहों के हस्ताक्षर लें। Registration जरूरी नहीं पर बेहतर है। 18 साल से ऊपर कोई भी बना सकता है। कभी भी बदल सकते हैं।",
-    "tags": ["will", "testament", "inheritance", "property"],
+    "tags": [
+      "will",
+      "testament",
+      "inheritance",
+      "property"
+    ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.85
   },
@@ -154,9 +226,18 @@
     "category": "legal",
     "title": "किराया समझौता कैसे बनाएं?",
     "question_hi": "किराया समझौता कैसे बनाएं?",
-    "question_variants": ["rent agreement", "किराया एग्रीमेंट", "lease deed"],
+    "question_variants": [
+      "rent agreement",
+      "किराया एग्रीमेंट",
+      "lease deed"
+    ],
     "summary": "किराया समझौता: 1) Stamp paper (₹100-500) पर लिखें, 2) मकान मालिक और किराएदार दोनों के details, 3) किराया, advance, अवधि लिखें, 4) नियम और शर्तें, 5) दोनों के हस्ताक्षर और 2 गवाह। 11 महीने का agreement बनाएं (registration नहीं चाहिए)। 1 साल से ज्यादा का हो तो registration जरूरी।",
-    "tags": ["rent_agreement", "lease", "tenant", "landlord"],
+    "tags": [
+      "rent_agreement",
+      "lease",
+      "tenant",
+      "landlord"
+    ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.86
   },
@@ -165,9 +246,18 @@
     "category": "legal",
     "title": "साइबर क्राइम की शिकायत कैसे करें?",
     "question_hi": "साइबर क्राइम की शिकायत कैसे करें?",
-    "question_variants": ["cyber crime complaint", "ऑनलाइन धोखाधड़ी", "online fraud"],
+    "question_variants": [
+      "cyber crime complaint",
+      "ऑनलाइन धोखाधड़ी",
+      "online fraud"
+    ],
     "summary": "साइबर क्राइम शिकायत: 1) cybercrime.gov.in पर ऑनलाइन complaint करें, 2) या Helpline 1930 पर कॉल करें, 3) सभी सबूत save करें (screenshots, messages, transaction details), 4) नजदीकी Cyber Cell में भी जा सकते हैं, 5) Bank को तुरंत inform करें। UPI fraud, OTP fraud, fake websites सब report कर सकते हैं।",
-    "tags": ["cyber_crime", "online_fraud", "helpline_1930", "digital_safety"],
+    "tags": [
+      "cyber_crime",
+      "online_fraud",
+      "helpline_1930",
+      "digital_safety"
+    ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.89
   },
@@ -176,9 +266,18 @@
     "category": "legal",
     "title": "मजदूरी नहीं मिली तो क्या करें?",
     "question_hi": "मजदूरी नहीं मिली तो क्या करें?",
-    "question_variants": ["wage not paid", "मजदूरी नहीं मिली", "salary dispute"],
+    "question_variants": [
+      "wage not paid",
+      "मजदूरी नहीं मिली",
+      "salary dispute"
+    ],
     "summary": "मजदूरी नहीं मिली तो: 1) Labour Commissioner office में शिकायत करें, 2) Labour Helpline 1800-11-6666 पर कॉल करें, 3) लिखित complaint दें, 4) सबूत रखें (attendance, work proof), 5) अगर समाधान न हो तो Labour Court में case कर सकते हैं। Minimum Wage Act के तहत मजदूरी पाना आपका अधिकार है।",
-    "tags": ["labour_rights", "wage", "minimum_wage", "labour_court"],
+    "tags": [
+      "labour_rights",
+      "wage",
+      "minimum_wage",
+      "labour_court"
+    ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.87
   },
@@ -187,11 +286,19 @@
     "category": "legal",
     "title": "जमीन विवाद कैसे सुलझाएं?",
     "question_hi": "जमीन विवाद कैसे सुलझाएं?",
-    "question_variants": ["land dispute", "जमीन का झगड़ा", "property dispute"],
+    "question_variants": [
+      "land dispute",
+      "जमीन का झगड़ा",
+      "property dispute"
+    ],
     "summary": "जमीन विवाद: 1) पहले पंचायत में सुलझाने की कोशिश करें, 2) Land records (khatauni) check करें, 3) Revenue Court (Tehsil) में case करें, 4) वकील की मदद लें, 5) Mediation center में भी जा सकते हैं। सभी documents संभाल कर रखें। Court case में समय लगता है, पहले समझौता try करें।",
-    "tags": ["land_dispute", "property", "revenue_court", "mediation"],
+    "tags": [
+      "land_dispute",
+      "property",
+      "revenue_court",
+      "mediation"
+    ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.84
   }
 ]
-

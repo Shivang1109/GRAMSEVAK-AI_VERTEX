@@ -398,5 +398,55 @@
     ],
     "last_updated": "2024-02-26",
     "confidence_weight": 0.85
+  },
+  {
+    "id": "ayushman_001",
+    "category": "health",
+    "title": "Ayushman Bharat",
+    "question_hi": "आयुष्मान भारत योजना में कितना इलाज मुफ्त है?",
+    "question_variants": [
+      "आयुष्मान कार्ड से क्या फायदा",
+      "ayushman bharat hospital list",
+      "5 लाख का इलाज कैसे मिलेगा"
+    ],
+    "summary": "आयुष्मान भारत योजना में हर परिवार को ₹5 लाख तक का मुफ्त इलाज मिलता है। यह सरकारी और पैनल में शामिल निजी अस्पतालों में मान्य है। कैशलेस इलाज की सुविधा है।",
+    "tags": [
+      "health",
+      "insurance",
+      "hospital"
+    ],
+    "last_updated": "2024-02-26",
+    "confidence_weight": 0.85,
+    "eligibility": "SECC 2011 में शामिल परिवार या राज्य सरकार द्वारा चिन्हित परिवार",
+    "documents_required": [
+      "आधार कार्ड",
+      "राशन कार्ड"
+    ]
+  },
+  {
+    "id": "matritva_001",
+    "category": "health",
+    "title": "Pradhan Mantri Matru Vandana Yojana",
+    "question_hi": "गर्भवती महिलाओं को कितना पैसा मिलता है?",
+    "question_variants": [
+      "pregnancy financial help",
+      "मातृत्व लाभ योजना",
+      "pmmvy scheme"
+    ],
+    "summary": "PMMVY योजना में गर्भवती महिलाओं को ₹5,000 की सहायता तीन किस्तों में मिलती है। पहली किस्त गर्भावस्था पंजीकरण पर, दूसरी 6 महीने बाद, तीसरी बच्चे के जन्म और टीकाकरण के बाद। आंगनवाड़ी या स्वास्थ्य केंद्र में आवेदन करें।",
+    "tags": [
+      "pregnancy",
+      "women",
+      "health",
+      "financial_aid"
+    ],
+    "last_updated": "2024-02-26",
+    "confidence_weight": 0.85,
+    "eligibility": "पहली बार गर्भवती होने वाली महिला",
+    "documents_required": [
+      "आधार कार्ड",
+      "बैंक खाता",
+      "MCP कार्ड"
+    ]
   }
 ]

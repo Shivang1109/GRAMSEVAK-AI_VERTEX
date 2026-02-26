@@ -19,6 +19,14 @@
                     <p class="subtitle">आपका सरकारी योजना सहायक</p>
                 </div>
                 <div class="header-actions">
+                    <!-- 2G Simulation Toggle -->
+                    <div class="simulation-toggle" style="margin-right: 12px;">
+                        <label class="toggle-switch" title="Simulate Rural 2G Mode">
+                            <input type="checkbox" id="simulate-2g-toggle">
+                            <span class="toggle-slider"></span>
+                        </label>
+                        <span class="toggle-label" style="font-size: 11px; color: rgba(255,255,255,0.9);">2G Mode</span>
+                    </div>
                     <!-- Network Status with Dynamic Indicator -->
                     <div class="network-status" id="network-status">
                         <span class="status-dot online" id="status-dot"></span>
@@ -144,6 +152,12 @@
             </div>
             <button class="bandwidth-close" id="bandwidth-close">×</button>
         </div>
+
+        <!-- Emergency Mode Button -->
+        <button id="emergency-btn" class="emergency-btn" title="आपातकालीन सहायता">
+            🚨
+            <span class="emergency-btn-text">आपातकाल</span>
+        </button>
 
         <!-- Loading Overlay -->
         <div id="loading-overlay" class="loading-overlay hidden">

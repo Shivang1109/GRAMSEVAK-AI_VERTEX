@@ -2,58 +2,64 @@
   {
     "id": "livelihood_001",
     "category": "livelihood",
-    "subcategory": "small_business",
+    "title": "छोटा बिजनेस कैसे शुरू करें?",
     "question_hi": "छोटा बिजनेस कैसे शुरू करें?",
     "question_variants": [
       "start small business",
       "व्यापार शुरू करना",
       "business ideas"
     ],
-    "answer_hi": "छोटा बिजनेस शुरू करने के लिए: 1) अपनी skill के अनुसार चुनें (दुकान, सिलाई, पोल्ट्री, डेयरी), 2) MUDRA loan लें (₹50,000 से ₹10 लाख), 3) Udyam registration करें (msme.gov.in पर मुफ्त), 4) बाजार research करें, 5) छोटे से शुरू करें। महिलाओं के लिए: SHG (Self Help Group) join करें। Training: PMEGP, PMKVY schemes।",
+    "summary": "छोटा बिजनेस शुरू करने के लिए: 1) अपनी skill के अनुसार चुनें (दुकान, सिलाई, पोल्ट्री, डेयरी), 2) MUDRA loan लें (₹50,000 से ₹10 लाख), 3) Udyam registration करें (msme.gov.in पर मुफ्त), 4) बाजार research करें, 5) छोटे से शुरू करें। महिलाओं के लिए: SHG (Self Help Group) join करें। Training: PMEGP, PMKVY schemes।",
     "tags": [
       "business",
       "entrepreneurship",
       "mudra",
       "msme",
       "startup"
-    ]
+    ],
+    "last_updated": "2024-02-26",
+    "confidence_weight": 0.85
   },
   {
     "id": "livelihood_002",
     "category": "livelihood",
-    "subcategory": "online_selling",
+    "title": "ऑनलाइन सामान कैसे बेचें?",
     "question_hi": "ऑनलाइन सामान कैसे बेचें?",
     "question_variants": [
       "sell online",
       "ऑनलाइन बिक्री",
       "ecommerce"
     ],
-    "answer_hi": "ऑनलाइन बेचने के लिए: 1) Amazon Saheli, Flipkart, Meesho पर seller registration करें, 2) अपने प्रोडक्ट की फोटो अपलोड करें, 3) कीमत तय करें, 4) Order आने पर courier से भेजें, 5) GeM portal (government buying) पर भी बेच सकते हैं। हस्तशिल्प के लिए: Tribes India। कृषि उत्पाद: eNAM portal। कोई शुल्क नहीं या बहुत कम।",
+    "summary": "ऑनलाइन बेचने के लिए: 1) Amazon Saheli, Flipkart, Meesho पर seller registration करें, 2) अपने प्रोडक्ट की फोटो अपलोड करें, 3) कीमत तय करें, 4) Order आने पर courier से भेजें, 5) GeM portal (government buying) पर भी बेच सकते हैं। हस्तशिल्प के लिए: Tribes India। कृषि उत्पाद: eNAM portal। कोई शुल्क नहीं या बहुत कम।",
     "tags": [
       "online_selling",
       "ecommerce",
       "amazon",
       "meesho",
       "gem"
-    ]
+    ],
+    "last_updated": "2024-02-26",
+    "confidence_weight": 0.85
   },
   {
     "id": "livelihood_003",
     "category": "livelihood",
-    "subcategory": "dairy",
+    "title": "डेयरी फार्मिंग कैसे करें?",
     "question_hi": "डेयरी फार्मिंग कैसे करें?",
     "question_variants": [
       "dairy farming",
       "दूध का व्यापार",
       "cattle rearing"
     ],
-    "answer_hi": "डेयरी फार्मिंग शुरू करने के लिए: 1) 2-3 अच्छी नस्ल की गाय/भैंस खरीदें (HF, Jersey, Murrah), 2) पशु बीमा कराएं, 3) दूध बेचने के लिए: नजदीकी dairy cooperative join करें (Amul, Mother Dairy), 4) पशु आहार: हरा चारा + दाना मिश्रण, 5) नियमित टीकाकरण। लोन: Dairy Entrepreneurship Development Scheme। ₹1-2 लाख से शुरू कर सकते हैं।",
+    "summary": "डेयरी फार्मिंग शुरू करने के लिए: 1) 2-3 अच्छी नस्ल की गाय/भैंस खरीदें (HF, Jersey, Murrah), 2) पशु बीमा कराएं, 3) दूध बेचने के लिए: नजदीकी dairy cooperative join करें (Amul, Mother Dairy), 4) पशु आहार: हरा चारा + दाना मिश्रण, 5) नियमित टीकाकरण। लोन: Dairy Entrepreneurship Development Scheme। ₹1-2 लाख से शुरू कर सकते हैं।",
     "tags": [
       "dairy",
       "cattle",
       "milk",
       "farming",
       "cooperative"
-    ]
+    ],
+    "last_updated": "2024-02-26",
+    "confidence_weight": 0.85
   }
 ]
