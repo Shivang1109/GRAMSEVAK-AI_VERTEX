@@ -580,12 +580,37 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 🌐 Live Deployment
+
+### Production URLs
+
+- **Backend API:** https://gramsevak-ai-vertex-2.onrender.com
+- **API Health Check:** https://gramsevak-ai-vertex-2.onrender.com/health
+- **API Documentation:** https://gramsevak-ai-vertex-2.onrender.com/docs
+- **Frontend:** Deploy on Netlify (see instructions below)
+
+### Deploy Frontend to Netlify
+
+1. Go to [Netlify](https://app.netlify.com)
+2. Sign in with GitHub
+3. Click "Add new site" → "Import an existing project"
+4. Select your GitHub repository: `GRAMSEVAK-AI_VERTEX`
+5. Configure build settings:
+   - Base directory: `frontend`
+   - Publish directory: `.` (current directory)
+   - Build command: (leave empty)
+6. Click "Deploy site"
+7. Your app will be live at: `https://your-site-name.netlify.app`
+
+The frontend is already configured to use the production backend URL.
+
+---
+
 ## 📚 Documentation
 
 - [Quick Start Guide](QUICKSTART.md) - Get started in 5 minutes
-- [Project Summary](PROJECT_SUMMARY.md) - Detailed project overview
-- [Tech Stack Details](TECH_STACK_SUMMARY.md) - Technical deep dive
-- [API Documentation](http://localhost:8000/docs) - Interactive API docs (when server is running)
+- [Deployment Guide](DEPLOYMENT_GUIDE.md) - Complete deployment instructions
+- [API Documentation](https://gramsevak-ai-vertex-2.onrender.com/docs) - Interactive API docs
 
 ---
 
